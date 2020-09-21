@@ -1,1 +1,0 @@
-export * from './day-karen-blixen-and-giraffe-center.component';

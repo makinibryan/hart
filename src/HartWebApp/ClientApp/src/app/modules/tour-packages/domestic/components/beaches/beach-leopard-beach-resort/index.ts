@@ -1,1 +1,0 @@
-export * from './beach-leopard-beach-resort.component';

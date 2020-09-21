@@ -1,1 +1,0 @@
-export * from './all-beaches.component';

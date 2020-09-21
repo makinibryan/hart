@@ -1,1 +1,0 @@
-export * from './safari-home-of-the-wild-elephant-three-days-and-two-nights.component';

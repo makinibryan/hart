@@ -1,1 +1,0 @@
-export * from './safari-nine-days-maasai-mara-kisumu-amboseli.component';

@@ -1,1 +1,0 @@
-export * from './safari-three-days-the-hemmingway-trail.component';

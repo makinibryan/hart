@@ -1,1 +1,0 @@
-export * from './safari-four-days-maasai-mara-nakuru.component';

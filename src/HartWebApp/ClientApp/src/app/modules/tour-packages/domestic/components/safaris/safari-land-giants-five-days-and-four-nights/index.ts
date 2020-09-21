@@ -1,1 +1,0 @@
-export * from './safari-land-giants-five-days-and-four-nights.component';

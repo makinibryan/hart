@@ -1,1 +1,0 @@
-export * from './book-by-phone-right.component';

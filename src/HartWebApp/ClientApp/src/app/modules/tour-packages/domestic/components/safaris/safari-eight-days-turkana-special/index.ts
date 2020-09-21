@@ -1,1 +1,0 @@
-export * from './safari-eight-days-turkana-special.component';

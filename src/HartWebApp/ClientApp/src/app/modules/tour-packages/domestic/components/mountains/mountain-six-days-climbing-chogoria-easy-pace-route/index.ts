@@ -1,1 +1,0 @@
-export * from './mountain-six-days-climbing-chogoria-easy-pace-route.component';

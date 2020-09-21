@@ -1,0 +1,1 @@
+export * from './mountain-five-days-climbing-sirimon-naro-moro-route.component';

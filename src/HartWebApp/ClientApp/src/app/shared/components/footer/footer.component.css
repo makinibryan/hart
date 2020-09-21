@@ -1,0 +1,39 @@
+@media screen and (max-width: 720px) {
+    #pesapalbtn {
+        background: transparent;
+        border-radius: 3px;
+        bottom: 0;
+        position: fixed;
+        box-shadow: none;
+        box-sizing: border-box;
+        display: inline-block;
+        left: 1%;
+        text-align: center;
+        z-index: 10000;
+        padding: 0;    
+    }   
+}
+
+
+/* Pesapal button */
+#pesapalbtn img {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding: 0;
+    background: #fff;
+}
+
+#pesapalbtn {
+    background: transparent;
+    border-radius: 3px;
+    bottom: 0;
+    position: fixed;
+    box-shadow: none;
+    box-sizing: border-box;
+    display: inline-block;
+    left: 1%;
+    text-align: center;
+    z-index: 10000;
+    padding: 0;    
+}   

@@ -1,0 +1,220 @@
+<section class="parallax-window" data-parallax="scroll" data-image-src="../../../../assets/img/hart/contact/leopard.jpg"
+	data-natural-width="1400" data-natural-height="470">
+	<div class="parallax-content-1">
+		<div class="animated fadeInDown">
+			<h1>Contact us</h1>
+			<p>You can contact us online, visit or give us a call.</p>
+		</div>
+	</div>
+</section>
+<!-- End Section -->
+<main>
+	<div id="position">
+		<div class="container">
+			<ul>
+				<li><a href="Index.html">Home</a>
+				</li>
+				<li>Contact Us</li>
+			</ul>
+		</div>
+	</div>
+	<!-- End Position -->
+
+	<div class="container margin_60">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="form_title">
+					<h3><strong><i class="icon-pencil"></i></strong>Fill the form below</h3>
+					<p>
+						We would like to hear from you
+					</p>
+				</div>
+				<div class="step">
+					<!-- <div [hidden]="submitted"> -->
+						<div id="message-contact"></div>
+						<form (ngSubmit)="submitForm()" #contactForm="ngForm">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label>First Name</label>
+										<input type="text" class="form-control" id="firstName" name="firstName"
+											placeholder="Enter Name" [(ngModel)]="model.firstName" required
+											#firstNameInput="ngModel">
+										<div *ngIf="firstNameInput.invalid && (firstNameInput.dirty || firstNameInput.touched)"
+											class="alert alert-danger">
+											<div *ngIf="firstNameInput.errors?.required">
+												Firstname is required.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label>Last Name</label>
+										<input type="text" class="form-control" id="lastname_contact"
+											name="lastname_contact" placeholder="Enter Last Name"
+											[(ngModel)]="model.lastName" required #lastNameInput="ngModel" ng-untouched
+											ng-pristine ng-valid>
+											<div *ngIf="lastNameInput.invalid && (lastNameInput.dirty || lastNameInput.touched)"
+											class="alert alert-danger">
+											<div *ngIf="lastNameInput.errors?.required">
+												Lastname is required.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End row -->
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label>Email</label>
+										<input type="email" id="email_contact" name="email_contact" class="form-control"
+											placeholder="Enter Email" [(ngModel)]="model.email" required email
+											#emailInput="ngModel" ng-untouched ng-pristine ng-valid>
+											<div *ngIf="emailInput.invalid && (emailInput.dirty || emailInput.touched)"
+											class="alert alert-danger">
+											<div *ngIf="emailInput.errors?.required">
+												Email is required.
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label>Phone</label>
+										<input type="text" id="phone_contact" name="phone_contact" class="form-control"
+											placeholder="Enter Phone number" [(ngModel)]="model.phone" required required
+											#phoneInput="ngModel" ng-untouched ng-pristine ng-valid>
+											<div *ngIf="phoneInput.invalid && (phoneInput.dirty || phoneInput.touched)"
+											class="alert alert-danger">
+											<div *ngIf="phoneInput.errors?.required">
+												Phone is required.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="form-group">
+										<label>Message</label>
+										<textarea rows="5" id="message_contact" name="message_contact"
+											class="form-control" placeholder="Write your message" style="height:200px;"
+											[(ngModel)]="model.message" required #messageInput="ngModel" ng-untouched
+											ng-pristine ng-valid></textarea>
+											<div *ngIf="messageInput.invalid && (messageInput.dirty || messageInput.touched)"
+											class="alert alert-danger">
+											<div *ngIf="messageInput.errors?.required">
+												Message is required.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6">
+									<!-- Todo: Add captcha here.... -->
+									<!-- <label>Human verification</label> -->								
+									<input type="submit" class="btn_1" [disabled]="!contactForm.valid">
+								</div>								
+							</div>
+							<div class="row">
+								<div class="col-sm-6">
+								 <!-- <label>Message successfully submitted, we will get back to you soon!</label> -->
+								</div>								
+							</div>						
+						</form>
+					<!-- </div> -->
+				</div>
+			</div>
+			<!-- End col-md-8 -->
+			
+			<div class="col-md-4 contact-us">
+				<div class="box_style_1">
+					<h4 style="text-align: center;
+					        font-size: 22px;">Address <span><i class="icon-pin pull-right"></i></span></h4>
+					<p>
+						View Park Towers, 1st Floor Suite 3 Monrovia Street, Utalii Lane Nairobi, Kenya
+					</p>
+					<hr>
+					<h4 style="text-align: center;
+					font-size: 22px;">Help center <span><i class="icon-help pull-right"></i></span></h4>
+					<p>
+						Get your questions answered about bookings, requirments, travel policies and so much more. We
+						can help.
+					</p>
+					<ul id="contact-info">
+						<li><abbr title="Mobile" style="text-decoration: none;">M:</abbr> (+254) 746 425 390</li>
+						<li><abbr title="Mobile" style="text-decoration: none;">M:</abbr> (+254) 721 913 292</li>
+						<li><abbr title="Mobile" style="text-decoration: none;">M:</abbr> (+254) 739 611 948</li>
+						<li><abbr title="Mobile" style="text-decoration: none;">M:</abbr> (+254) 724 338 834</li>
+						<li><abbr title="Mobile" style="text-decoration: none;">M:</abbr> (+254) 722 469 733</li>
+						<li><a href="mailto:info@h-artofafricasafaris.com"><abbr title="Email"
+									style="text-decoration: none;">E:</abbr> info@h-artofafricasafaris.com</a>
+						</li>
+					</ul>
+				</div>			
+				<div class="box_style_4">
+					<i class="icon_set_1_icon-90"></i>
+					<h4><span>Book</span> by phone</h4>
+					<a href="tel://254208000243" class="phone need_help_right">+254 20 8000 243</a>
+					<a href="tel://00254721913293" class="phone need_help_right">+254 721 913 293</a>
+					<small>Monday to Saturday 7.00am - 8.00pm</small>
+				</div>	
+			</div>
+			<!-- End col-md-4 -->
+		</div>
+		<!-- End row -->
+		<div class="row contact-us">
+			<div class="col-md-8"></div>
+            <div class="col-md-4">
+                <div id="social_contact_us">
+                    <ul>
+                        <li><a href="https://www.facebook.com/HeartofAfricasafaris/?ti=as" target="_blank"><i
+                                    class="icon-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/HartSafaris?s=08" target="_blank"><i class="icon-twitter"></i></a></li>
+                        <li><a href="https://h-art-of-africa-safaris-ltd.business.site" target="_blank"><i
+                                    class="icon-google"></i></a></li>
+                        <li><a href="https://www.instagram.com/hartofafricasafaris/?hl=en" target="_blank"><i
+                                    class="icon-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCyf2g-Cv8Jdb_55u3GP5DQA?reload=9" target="_blank"><i
+                                    class="icon-youtube-play"></i></a></li>
+                    </ul>                 
+                   
+                </div>
+            </div>
+		</div>
+		<!-- End row -->
+	</div>
+	<!-- End container -->
+
+	<div id="map_contact"></div>
+	<!-- end map-->
+	<div id="directions">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<form action="http://maps.google.com/maps" method="get" target="_blank">
+						<div class="input-group">
+							<input type="text" name="saddr" placeholder="Enter your starting point"
+								class="form-control style-2" />
+							<input type="hidden" name="daddr" value="New York, NY 11430" />
+							<!-- Write here your end point -->
+							<span class="input-group-btn">
+								<button class="btn" type="submit" value="Get directions" style="margin-left:0;">GET
+									DIRECTIONS</button>
+							</span>
+						</div>
+						<!-- /input-group -->
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end directions-->
+</main>
+<!-- End main -->
+
+
+<app-footer></app-footer>

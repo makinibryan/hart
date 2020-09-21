@@ -1,0 +1,1 @@
+export * from './safari-seven-days-maasai-mara-samburu.component';

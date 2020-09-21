@@ -1,0 +1,1 @@
+export * from './beach-afro-chic-diani-beach.component';

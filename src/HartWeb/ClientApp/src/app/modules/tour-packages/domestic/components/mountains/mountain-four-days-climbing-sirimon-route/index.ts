@@ -1,0 +1,1 @@
+export * from './mountain-four-days-climbing-sirimon-route.component';

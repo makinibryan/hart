@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hart.Data.Access\Hart.Data.Access.csproj" />
+    <ProjectReference Include="..\Hart.Domain\Hart.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

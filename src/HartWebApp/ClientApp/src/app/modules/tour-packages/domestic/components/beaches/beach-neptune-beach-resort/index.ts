@@ -1,0 +1,1 @@
+export * from './beach-neptune-beach-resort.component';

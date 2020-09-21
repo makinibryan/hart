@@ -1,0 +1,1 @@
+export * from './beach-six-days-bliss-kenya-beach-and-wildlife-tour.component';

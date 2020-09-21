@@ -1,0 +1,65 @@
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
+
+#social_contact_us {
+  text-align: center;  
+  background-color: #445C2B;     
+}
+
+#social_contact_us p {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+#social_contact_us ul {
+  margin: 0;
+  text-align: center;
+}
+
+#social_contact_us ul li {
+  display: inline-block;  
+  margin: 5px; 
+}
+
+#social_contact_us ul li a {
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  display: block;
+  font-size: 16px;
+  width: 35px;
+  height: 35px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+#social_contact_us ul li a:hover {
+  background: #fff;
+  color: #111;
+}
+
+#form-submit {
+  color: red; 
+  margin-top: 30px;
+}
+
+#map-iframe {
+  height: 500px;
+  resize: both;
+  overflow: auto; 
+  margin-top: 880px;
+  border-top: solid;
+  border-width: 0.1px;
+  width: 100%;      
+}
+
+/* Media queries */
+@media screen and (max-width: 720px) {
+
+}

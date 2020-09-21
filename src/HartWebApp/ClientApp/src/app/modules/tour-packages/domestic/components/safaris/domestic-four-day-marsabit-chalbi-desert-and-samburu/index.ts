@@ -1,0 +1,1 @@
+export * from './domestic-four-day-marsabit-chalbi-desert-and-samburu.component';

@@ -41,7 +41,9 @@ import {
     DayNairobiNationalParkComponent,
     DayKarenBlixenAndGiraffeCenterComponent,
     DayBomasOfKenyaComponent,
-    DayGreatRiftValleyLakeNakuruComponent
+    DayGreatRiftValleyLakeNakuruComponent,
+    DayKiccAndTownCenterComponent,
+    FortJesusOldTownMambaVillageCenterComponent
 } from './components';
 
 @NgModule({
@@ -87,7 +89,9 @@ import {
         SafariLandGiantsFiveDaysAndFourNightsComponent,
         SafariMagnificentExcursionsFiveDaysAndFourNightsComponent,
         SafariHomeOfTheWildElephantThreeDaysAndTwoNightsComponent,
-        SafariBushAndLakeComponent
+        SafariBushAndLakeComponent,
+        DayKiccAndTownCenterComponent,
+        FortJesusOldTownMambaVillageCenterComponent
     ]
 })
 export class DomesticsModule{}

@@ -38,7 +38,9 @@ import {
     SafariLandGiantsFiveDaysAndFourNightsComponent,
     SafariMagnificentExcursionsFiveDaysAndFourNightsComponent,
     SafariHomeOfTheWildElephantThreeDaysAndTwoNightsComponent,
-    SafariBushAndLakeComponent
+    SafariBushAndLakeComponent,
+    DayKiccAndTownCenterComponent,
+    FortJesusOldTownMambaVillageCenterComponent
 } from './components';
 
 const routes: Routes = [
@@ -210,6 +212,14 @@ const routes: Routes = [
     {
         path: 'safari-bush-and-lake',
         component: SafariBushAndLakeComponent
+    },
+    {
+        path: 'kicc-and-town-center',
+        component: DayKiccAndTownCenterComponent
+    },
+    {
+        path: 'fort-jesus-old-town-elephant-tusks-and-mamba-village-center',
+        component: FortJesusOldTownMambaVillageCenterComponent
     }
 ];
 

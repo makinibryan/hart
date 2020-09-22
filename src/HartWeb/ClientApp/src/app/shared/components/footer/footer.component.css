@@ -7,7 +7,7 @@
         box-shadow: none;
         box-sizing: border-box;
         display: inline-block;
-        left: 5%;
+        left: 10%;
         text-align: center;
         z-index: 10000;
         padding: 0;    
@@ -32,7 +32,7 @@
     box-shadow: none;
     box-sizing: border-box;
     display: inline-block;
-    left: 5%;
+    left: 10%;
     text-align: center;
     z-index: 10000;
     padding: 0;    

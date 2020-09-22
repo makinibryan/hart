@@ -39,3 +39,6 @@
 .container-height {
     height: 290px;    
 }
+.list ul {
+    list-style: none;
+}

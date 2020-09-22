@@ -39,3 +39,8 @@
 .container-height {
     height: 290px;    
 }
+
+.list-item {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}

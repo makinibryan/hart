@@ -8,9 +8,10 @@ import {
   AboutUsComponent,
   FaqComponent,
   HomeComponent,
-  ContactUsComponent
+  ContactUsComponent,
+  InquireNowComponent,
+  StagingComponent
 } from './components';
-import { InquireNowComponent } from './components/inquire-now/inquire-now.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { InquireNowComponent } from './components/inquire-now/inquire-now.compon
     FaqComponent,
     HomeComponent,
     ContactUsComponent,
-    InquireNowComponent
+    InquireNowComponent,
+    StagingComponent
   ],
   imports: [
     CommonModule,

@@ -6,7 +6,8 @@ import {
   AboutUsComponent,
   ContactUsComponent,
   FaqComponent,
-  InquireNowComponent
+  InquireNowComponent,
+  StagingComponent
 } from './components';
 
 const routes: Routes = [
@@ -29,6 +30,10 @@ const routes: Routes = [
     {
       path: 'inquire',
       component: InquireNowComponent
+    },
+    {
+      path: 'staging',
+      component: StagingComponent
     }
 ];
 

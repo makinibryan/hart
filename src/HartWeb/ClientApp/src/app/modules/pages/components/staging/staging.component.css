@@ -1,0 +1,41 @@
+.rounded-circle {
+    width: 80px;
+    border-radius: 50%!important;
+}
+
+  .mission-vision-cont{
+      margin-bottom: 40px;
+      margin-top: 40px;;
+  }
+  .mission-vision-cont h2{
+      text-align: center;
+  }
+  
+.presence-statment{
+    font-size: 18px;
+    
+}
+#trust-img{
+    width: 250px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rating .voted {
+	color: #445C2B;
+}
+
+@media screen and (max-width: 720px) {
+ 
+    h3 {
+        font-size: 18px;
+    }
+    .features-intro-img{
+        display: none;
+    }
+}
+
+.container-height {
+    height: 290px;    
+}

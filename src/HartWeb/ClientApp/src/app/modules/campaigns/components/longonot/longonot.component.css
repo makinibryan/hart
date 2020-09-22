@@ -1,0 +1,15 @@
+
+.confirm-attendance { 
+	margin:-30px -30px 20px -30px; 
+	background-color:#445c2b; 
+	padding:10px 20px 10px 18px;
+	color:#fff; 
+	border:1px solid #fff;
+	-webkit-border-top-left-radius: 3px;
+	text-align:center;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}

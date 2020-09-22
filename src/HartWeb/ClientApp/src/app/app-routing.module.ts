@@ -14,6 +14,10 @@ const routes: Routes = [
     loadChildren: () => import ('./modules'). then(m => m.BlogModule)
   },
   {
+    path: 'campaign',
+    loadChildren: () => import('./modules/campaigns').then(m => m.CampaignsModule)
+  },
+  {
     path: 'domestic',
     loadChildren: () => import ('./modules/tour-packages/domestic'). then (m => m.DomesticsModule)
   },

@@ -7,11 +7,11 @@ import { CacheInterceptor } from './core/interceptors';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import {
   BlogModule,
+  CampaignsModule,
   DomesticsModule,
   PagesModule,
   InternationalModule,
-  EastAfricaModule,
-
+  EastAfricaModule
 } from './modules';
 
 
@@ -30,6 +30,7 @@ import { AppComponent } from './app.component';
     SharedModule,
     CoreModule,
     BlogModule,
+    CampaignsModule,
     DomesticsModule,
     EastAfricaModule,
     PagesModule,

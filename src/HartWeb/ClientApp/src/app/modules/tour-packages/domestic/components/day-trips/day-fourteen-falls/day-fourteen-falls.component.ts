@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-fort-jesus-old-town-mamba-village-center',
-  templateUrl: './fort-jesus-old-town-mamba-village-center.component.html',
-  styleUrls: ['./fort-jesus-old-town-mamba-village-center.component.css']
+  selector: 'app-day-fourteen-falls',
+  templateUrl: './day-fourteen-falls.component.html',
+  styleUrls: ['./day-fourteen-falls.component.css']
 })
-export class FortJesusOldTownMambaVillageCenterComponent implements OnInit {
+export class DayFourteenFallsComponent implements OnInit {
 
   constructor(private router: Router ) {
 

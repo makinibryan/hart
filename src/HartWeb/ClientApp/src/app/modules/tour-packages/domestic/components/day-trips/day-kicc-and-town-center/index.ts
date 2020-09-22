@@ -1,0 +1,1 @@
+export * from './day-kicc-and-town-center.component';

@@ -41,7 +41,15 @@ import {
     DayNairobiNationalParkComponent,
     DayKarenBlixenAndGiraffeCenterComponent,
     DayBomasOfKenyaComponent,
-    DayGreatRiftValleyLakeNakuruComponent
+    DayGreatRiftValleyLakeNakuruComponent,
+    DayKiccAndTownCenterComponent,
+    FortJesusOldTownMambaVillageCenterComponent,
+    DayHallerParkAndNguuniWildlifeSanctuaryComponent,
+    DayTripToHellsGateNationalParkComponent,
+    DayLakeNakuruNationalParkComponent,
+    DayLakeBogoriaNationalReserveComponent,
+    DayMtLongonotNationalParkComponent,
+    DayFourteenFallsComponent
 } from './components';
 
 @NgModule({
@@ -87,7 +95,15 @@ import {
         SafariLandGiantsFiveDaysAndFourNightsComponent,
         SafariMagnificentExcursionsFiveDaysAndFourNightsComponent,
         SafariHomeOfTheWildElephantThreeDaysAndTwoNightsComponent,
-        SafariBushAndLakeComponent
+        SafariBushAndLakeComponent,
+        DayKiccAndTownCenterComponent,
+        FortJesusOldTownMambaVillageCenterComponent,
+        DayHallerParkAndNguuniWildlifeSanctuaryComponent,
+        DayTripToHellsGateNationalParkComponent,
+        DayLakeNakuruNationalParkComponent,
+        DayLakeBogoriaNationalReserveComponent,
+        DayMtLongonotNationalParkComponent,
+        DayFourteenFallsComponent
     ]
 })
 export class DomesticsModule{}

@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import {
@@ -38,7 +38,14 @@ import {
     SafariLandGiantsFiveDaysAndFourNightsComponent,
     SafariMagnificentExcursionsFiveDaysAndFourNightsComponent,
     SafariHomeOfTheWildElephantThreeDaysAndTwoNightsComponent,
-    SafariBushAndLakeComponent
+    SafariBushAndLakeComponent,
+    DayKiccAndTownCenterComponent,
+    FortJesusOldTownMambaVillageCenterComponent,
+    DayHallerParkAndNguuniWildlifeSanctuaryComponent,
+    DayTripToHellsGateNationalParkComponent,
+    DayLakeNakuruNationalParkComponent,
+    DayLakeBogoriaNationalReserveComponent,
+    DayMtLongonotNationalParkComponent, DayFourteenFallsComponent
 } from './components';
 
 const routes: Routes = [
@@ -210,6 +217,38 @@ const routes: Routes = [
     {
         path: 'safari-bush-and-lake',
         component: SafariBushAndLakeComponent
+    },
+    {
+        path: 'kicc-and-town-center',
+        component: DayKiccAndTownCenterComponent
+    },
+    {
+        path: 'fort-jesus-old-town-elephant-tusks-and-mamba-village-center',
+        component: FortJesusOldTownMambaVillageCenterComponent
+    },
+    {
+        path: 'haller-park-and-nguuni-wildlife-sanctuary',
+        component: DayHallerParkAndNguuniWildlifeSanctuaryComponent
+    },
+    {
+        path: 'hells-gate-national-park',
+        component: DayTripToHellsGateNationalParkComponent
+    },
+    {
+        path: 'lake-nakuru-national-park',
+        component: DayLakeNakuruNationalParkComponent
+    },
+    {
+        path: 'lake-bogoria-national-reserve',
+        component: DayLakeBogoriaNationalReserveComponent
+    },
+    {
+        path: 'mt-longonot-national-park',
+        component: DayMtLongonotNationalParkComponent
+    },
+    {
+        path: 'fourteen-falls',
+        component: DayFourteenFallsComponent
     }
 ];
 

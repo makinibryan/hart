@@ -55,3 +55,7 @@
     top: 35%;
     margin-left: 0;
 }
+
+.items-list{
+    list-style-type: none;
+}

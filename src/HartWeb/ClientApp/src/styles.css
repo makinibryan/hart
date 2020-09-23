@@ -79,7 +79,7 @@
     color: #FFFFFF;   
 }
 
-/* .sticky .main-menu > ul > li > a {
-    color: #FFFFFF !important;
-} */
-
+.longonot {    
+    color: #60b10a;
+    font-size: 12px;
+}

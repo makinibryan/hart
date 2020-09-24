@@ -1,0 +1,1 @@
+export * from './three-days-diani-x-wasini-island-excursion.component';

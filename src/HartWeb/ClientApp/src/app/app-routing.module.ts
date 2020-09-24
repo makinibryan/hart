@@ -14,7 +14,7 @@ const routes: Routes = [
     loadChildren: () => import ('./modules'). then(m => m.BlogModule)
   },
   {
-    path: 'longonot',
+    path: 'campaign',
     loadChildren: () => import('./modules/campaigns').then(m => m.CampaignsModule)
   },
   {

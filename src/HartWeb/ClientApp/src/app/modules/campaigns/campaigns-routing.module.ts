@@ -1,12 +1,20 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { LongonotComponent } from './components';
+import { AllCampaignsComponent, LongonotComponent, ThreeDaysDianiXWasiniIslandExcursionComponent } from './components';
 
 const routes: Routes = [
     {
       path: '',
+      component: AllCampaignsComponent
+    },
+    {
+      path: 'longonot',
       component: LongonotComponent
+    },
+    {
+      path: 'three-days-diani-x-wasini-island-excursion',
+      component: ThreeDaysDianiXWasiniIslandExcursionComponent
     }
 ];
 

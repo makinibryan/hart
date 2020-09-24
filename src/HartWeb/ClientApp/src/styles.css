@@ -52,6 +52,19 @@
     .contact-us {
         display: none;
     } 
+
+    .campaign-content {
+        display: none;
+    }
+
+    .campaign-content-mobile {
+            font-size: 14px;
+    }
+
+    .campaign-he {
+
+    }
+
 }
 
 .tour_titles {

@@ -13,7 +13,7 @@ const routes: Routes = [
       component: LongonotComponent
     },
     {
-      path: 'three-days-diani-x-wasini-island-excursion',
+      path: 'diani',
       component: ThreeDaysDianiXWasiniIslandExcursionComponent
     }
 ];

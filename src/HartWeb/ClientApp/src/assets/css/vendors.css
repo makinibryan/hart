@@ -15691,14 +15691,14 @@ h3#pop_msg strong {
 	border-color: transparent!important
 }
 
-.irs-bar,
+/* .irs-bar,
 .irs-bar-edge,
 .irs-line-left,
 .irs-line-mid,
 .irs-line-right,
 .irs-slider {
 	background: url(../img/sprite-skin-flat.png) repeat-x
-}
+} */
 
 .irs {
 	height: 40px
@@ -15810,7 +15810,7 @@ h3#pop_msg strong {
 	color: #999
 }
 
-.icheckbox_square-grey,
+/* .icheckbox_square-grey,
 .iradio_square-grey {
 	display: inline-block;
 	vertical-align: middle;
@@ -15821,7 +15821,7 @@ h3#pop_msg strong {
 	background: url(../img/grey.png) no-repeat;
 	border: none;
 	cursor: pointer
-}
+} */
 
 .icheckbox_square-grey {
 	background-position: 0 0
@@ -15868,12 +15868,13 @@ h3#pop_msg strong {
 @media (-o-min-device-pixel-ratio:5/4),
 (-webkit-min-device-pixel-ratio:1.25),
 (min-resolution:120dpi) {
-	.icheckbox_square-grey,
+	
+	/* .icheckbox_square-grey,
 	.iradio_square-grey {
 		background-image: url(../img/grey@2x.png);
 		-webkit-background-size: 240px 24px;
 		background-size: 240px 24px
-	}
+	} */
 }
 
 .owl-carousel {

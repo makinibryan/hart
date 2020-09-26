@@ -11,5 +11,6 @@ namespace Hart.Data.Access
         }
 
         public DbSet<ContactForm> ContactForm { get; set; }
+        public DbSet<InquiryForm> InquiryForm { get; set; }
     }
 }

@@ -5,8 +5,8 @@ export class InquiryForm {
     public email: string | undefined;
     public phone: string | undefined;
     public tourPackage: string | undefined;
-    public numberOfAdults: string | undefined;
-    public numberOfChildren: string | undefined;
+    public numberOfAdults: number | undefined;
+    public numberOfChildren: number | undefined;
     public arrivalDate: Date | undefined;
     public departureDate: Date | undefined;
     public arrivalPoint: string | undefined;

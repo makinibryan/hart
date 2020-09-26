@@ -3,9 +3,9 @@ using System.Threading.Tasks;
 
 namespace Hart.Domain.Interfaces.Repositories
 {
-    public interface IContactFormRepository
+    public interface IInquiryFormRepository
     {
-        Task Add(ContactForm ContactForm);
+        Task Add(InquiryForm request);
         Task Commit();
     }
 }

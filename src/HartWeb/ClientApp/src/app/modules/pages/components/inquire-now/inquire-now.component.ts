@@ -17,10 +17,10 @@ export class InquireNowComponent implements OnInit {
   //selectedPackage: any = 'Select Package';
 
   constructor(private multiPurposeService: MultiPurposeService) {
-    this.model = new InquiryForm();
   }
 
   ngOnInit(): void {
+    this.model = new InquiryForm();
   }
 
   async submitForm(inquiryForm: NgForm) {

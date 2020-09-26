@@ -36,11 +36,11 @@ namespace HartWeb
              THIS MISLEADING ERROR - "HTTP Error 502.5 - ANCM Out-Of-Process Startup Failure"
             */
 
-
             services.AddScoped<IFormsService, FormsService>();
             services.AddSingleton<IEmailService, EmailService>();
             services.AddScoped<IContactFormRepository, ContactFormRepository>();
-                        
+            services.AddScoped<IInquiryFormRepository, InquiryFormRepository>();
+
             services.AddControllersWithViews(c =>
             {
                 c.Filters.Add(new ProducesAttribute("application/json"));

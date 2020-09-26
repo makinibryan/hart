@@ -60,11 +60,6 @@
     .campaign-content-mobile {
             font-size: 14px;
     }
-
-    .campaign-he {
-
-    }
-
 }
 
 .tour_titles {
@@ -96,3 +91,12 @@
     color: #60b10a;
     font-size: 12px;
 }
+
+.inquire-now {    
+    color: #60b10a !important;     
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;   
+}
+
+

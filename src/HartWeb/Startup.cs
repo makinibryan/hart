@@ -1,3 +1,4 @@
+using Hart.Contracts;
 using Hart.Data.Access;
 using Hart.Domain;
 using Hart.Domain.EntityModels;
@@ -37,7 +38,8 @@ namespace HartWeb
             */
 
             services.AddScoped<IFormsService, FormsService>();
-            services.AddSingleton<IEmailService, EmailService>();
+            services.AddSingleton<IEmailService<ContactFormRequest>, EmailService<ContactFormRequest>>();
+            services.AddSingleton<IEmailService<InquiryFormRequest>, EmailService<InquiryFormRequest>>();
             services.AddScoped<IContactFormRepository, ContactFormRepository>();
             services.AddScoped<IInquiryFormRepository, InquiryFormRepository>();
 

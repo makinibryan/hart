@@ -15,19 +15,22 @@ namespace Hart.Domain
     {
         IInquiryFormRepository _inquiryFormRespository;
         IContactFormRepository _contactFormRespository;
-        IEmailService _emailService;
+        IEmailService<ContactFormRequest> _emailServiceContact;
+        IEmailService<InquiryFormRequest> _emailServiceInquiry;
         private readonly ILogger<FormsService> _logger;
 
         public FormsService(
             IContactFormRepository contactFormRespository, 
-            IInquiryFormRepository inquiryFormRespository, 
-            IEmailService emailService,
+            IInquiryFormRepository inquiryFormRespository,
+            IEmailService<ContactFormRequest> emailServiceContact,
+            IEmailService<InquiryFormRequest> emailServiceInquiry,
             ILogger<FormsService> logger
             )
         {
             _contactFormRespository = contactFormRespository;
             _inquiryFormRespository = inquiryFormRespository;
-            _emailService = emailService;
+            _emailServiceContact = emailServiceContact;
+            _emailServiceInquiry = emailServiceInquiry; 
             _logger = logger;
         }
 
@@ -42,7 +45,7 @@ namespace Hart.Domain
 
             await SaveContactForm(request);  
             RequestType requestType = RequestType.Contact;
-            await _emailService.SendEmailAsync(request, requestType);
+            await _emailServiceContact.SendEmailAsync(request, requestType);
         }
 
         /// <summary>
@@ -55,8 +58,8 @@ namespace Hart.Domain
             _logger.LogTrace($"--> {nameof(SubmitInquiryForm)}()");
 
             await SaveInquiryForm(request);
-            RequestType requestType = RequestType.Inqury; 
-            await _emailService.SendEmailAsync(request, requestType);
+            RequestType requestType = RequestType.Inquiry; 
+            await _emailServiceInquiry.SendEmailAsync(request, requestType);
         }
 
         /// <summary>
@@ -70,8 +73,8 @@ namespace Hart.Domain
             {
                 FirstName = request.FirstName,
                 LastName = request.LastName,
-                Email = request.Message,
-                Phone = request.Message,
+                Email = request.Email,
+                Phone = request.Phone,
                 Message = request.Message
             };
 

@@ -4,9 +4,14 @@ using System.Text;
 
 namespace Hart.Contracts
 {
-    public class InquiryFormRequest : FormRequestBase
+    public class InquiryFormRequest
     {
         public string Title { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public string Phone { get; set; }
+        public string Message { get; set; }          
         public string TourPackage { get; set; }
         public int NumberOfAdutls { get; set; }
         public int NumberOfChildren { get; set; }
@@ -15,6 +20,7 @@ namespace Hart.Contracts
         public string ArrivalPoint { get; set; }
         public string DeparturePoint { get; set; }
         public string HowDidYouHearAboutUs { get; set; }
-        public bool NewsLetter { get; set; }        
+        public bool NewsLetter { get; set; }
+        public string Request { get; set; }
     }
 }

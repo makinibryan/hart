@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Hart.Domain.Interfaces.Services
 {
-    public interface IEmailService
+    public interface IEmailService<T>
     {        
-        Task SendEmailAsync(FormRequestBase request, RequestType requestType);
+        Task SendEmailAsync(T request, RequestType requestType);
     }
 }

@@ -137,8 +137,7 @@
 							<div class="col-sm-6">
 							 <div class="form-group">
 										<dd>
-										<select [(ngModel)]='package' name="tourPackage" id="tourPackage" class="form-control"
-											[(ngModel)]="model.tourPackage" #tourPackageInput="ngModel"
+										<select name="tourPackage" id="tourPackage" class="form-control" [(ngModel)]="model.tourPackage" #tourPackageInput="ngModel"
 											ng-untouched ng-pristine ng-valid required>
 											<option disabled hidden value="undefined">Select Package</option>
 											<option value="THE GREAT MARA 3 DAYS TOUR">THE GREAT MARA 3 DAYS TOUR</option>
@@ -368,7 +367,7 @@
 						<div class="row">
 							<div class="col-sm-1" style="padding-right: 0px;">
 								<div class="form-group">									
-									<!-- <input type="checkbox" name="newsLetter" class="form-control" placeholder="Enter departure point" 
+									<input type="checkbox" name="newsLetter" class="form-control" placeholder="Enter departure point" 
 									[(ngModel)]="model.newsLetter" required #newsLetterInput="ngModel" ng-untouched
 									ng-pristine ng-valid>
 									<div *ngIf="newsLetterInput.invalid && (newsLetterInput.dirty || newsLetterInput.touched)"
@@ -376,7 +375,7 @@
 										<div *ngIf="newsLetterInput.errors?.required">
 											Newsletter is required.
 										</div>
-									</div> -->
+									</div>
 								</div>
 							</div>
 							<div class="col-sm-11" style="padding-left: 0px;">

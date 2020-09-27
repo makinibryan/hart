@@ -1,7 +1,9 @@
 ﻿using Hart.Contracts;
+using Hart.Contracts.Enums;
 using Hart.Domain.EntityModels;
 using Hart.Domain.Interfaces.Repositories;
 using Hart.Domain.Interfaces.Services;
+using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 
 namespace Hart.Domain
@@ -14,37 +16,54 @@ namespace Hart.Domain
         IInquiryFormRepository _inquiryFormRespository;
         IContactFormRepository _contactFormRespository;
         IEmailService _emailService;
+        private readonly ILogger<FormsService> _logger;
 
-        public FormsService(IContactFormRepository contactFormRespository, IInquiryFormRepository inquiryFormRespository, IEmailService emailService)
+        public FormsService(
+            IContactFormRepository contactFormRespository, 
+            IInquiryFormRepository inquiryFormRespository, 
+            IEmailService emailService,
+            ILogger<FormsService> logger
+            )
         {
             _contactFormRespository = contactFormRespository;
             _inquiryFormRespository = inquiryFormRespository;
             _emailService = emailService;
+            _logger = logger;
         }
 
         /// <summary>
-        /// Saves incoming contact form request to databse and send email
+        /// Submit contact and send email
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
         public async Task SubmitContactForm(ContactFormRequest request)
         {
-            // Todo: Request to be saved to db
-            //SaveContactForm(request);           
-            await _emailService.SendEmailAsync(request);
+            _logger.LogTrace($"--> {nameof(SubmitContactForm)}()");
+
+            await SaveContactForm(request);  
+            RequestType requestType = RequestType.Contact;
+            await _emailService.SendEmailAsync(request, requestType);
         }
 
         /// <summary>
-        /// Saves incoming inquiry form request to databse and send email
+        /// Submit inquiry and send email
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
         public async Task SubmitInquiryForm(InquiryFormRequest request)
         {
-            //await SaveInquiryForm(request);           
-            await _emailService.SendEmailAsync(request);
+            _logger.LogTrace($"--> {nameof(SubmitInquiryForm)}()");
+
+            await SaveInquiryForm(request);
+            RequestType requestType = RequestType.Inqury; 
+            await _emailService.SendEmailAsync(request, requestType);
         }
 
+        /// <summary>
+        /// Saves contact to db
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         private async Task SaveContactForm(ContactFormRequest request) 
         {
             var form = new ContactForm
@@ -60,6 +79,11 @@ namespace Hart.Domain
             await _contactFormRespository.Commit();           
         }
 
+        /// <summary>
+        /// Saves inquiry to db
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         private async Task SaveInquiryForm(InquiryFormRequest request)
         {
             var form = new InquiryForm

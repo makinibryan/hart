@@ -13,6 +13,7 @@ export class ContactUsComponent implements OnInit {
 
   model: ContactForm;
   isSubmitted: boolean = false;
+  isError: boolean = false;
 
   constructor(private multiPurposeService: MultiPurposeService) {
     this.model = new ContactForm();
@@ -28,6 +29,7 @@ export class ContactUsComponent implements OnInit {
         console.log(`Contact form successfully submitted for processing`);
       },
       error => {
+        this.isError = true;
         console.log(`Error occurred submitting contact form with the following error: ${error}`);
       }
     );

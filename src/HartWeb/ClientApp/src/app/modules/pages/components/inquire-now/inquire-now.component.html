@@ -393,6 +393,14 @@
 							</div>
 
 						</div>
+						<div class="row">
+							<div class="col-sm-12" *ngIf="isSubmitted">
+								 <label id="form-submit">Message successfully submitted, we will get back to you soon, thank you!</label>
+							</div>	
+							<div class="col-sm-12" *ngIf="isError">
+								<label id="form-submit">An error has occurred sending you request, please try again later, thanks you!</label>
+						   </div>								
+						</div>
 					</form>
 					<!-- </div> -->
 				</div>

@@ -11,10 +11,11 @@ import { NgForm } from '@angular/forms';
 export class InquireNowComponent implements OnInit {
 
   model = new InquiryForm();
-  isSubmitted: boolean = false;
   package: any = 'Select Package';
+  isSubmitted: boolean = false;
+  isError: boolean = false;
 
-  //selectedPackage: any = 'Select Package';
+
 
   constructor(private multiPurposeService: MultiPurposeService) {
   }
@@ -31,6 +32,7 @@ export class InquireNowComponent implements OnInit {
         console.log(`Inquiry form successfully submitted for processing`);
       },
       error => {
+        this.isError = true;
         console.log(`Error occurred submitting inquiry form with the following error: ${error}`);
       }
     );

@@ -1,0 +1,89 @@
+
+.page-header {
+    color: white;
+}
+
+.need_help {
+    font-size: 20px;
+}
+
+.beach-page-headers{
+    text-align: center;
+}
+.beach-sub-header-cont{
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+.beach-paragraphs{
+    text-align: center;
+}
+.beach-package-container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mountain-days-spans{
+    font-weight: 700;
+	margin-right: 0.25rem;
+	
+}
+
+.btn-view-tours {
+	color: #fff !important;
+}
+#header-email :hover{
+    color: #445C2B;
+}
+
+@media screen and (max-width: 720px) {
+    .side_menu {
+        display: none;
+    }
+
+    .tour_titles {
+        font-size: 12px !important;
+    }
+
+    .contact-us {
+        display: none;
+    } 
+
+    .campaign-content {
+        display: none;
+    }
+
+    .campaign-content-mobile {
+            font-size: 14px;
+    }
+}
+
+.tour_titles {
+    font-size: 24px;
+}
+
+.requestqbtn{
+    margin-bottom: 1.75rem;
+}
+
+.tour_extra {
+    height: 80px;
+}
+
+.tour_package_title {
+    font-size: 20px;     
+}
+
+.tour_package_duration {
+    font-size: 14px;  
+}
+
+#request-quote {
+    text-transform:uppercase; 
+    color: #FFFFFF;   
+}
+
+.longonot {    
+    color: #60b10a;
+    font-size: 12px;
+}

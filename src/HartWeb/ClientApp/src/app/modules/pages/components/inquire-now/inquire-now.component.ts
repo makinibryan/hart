@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { InquiryForm } from '../../../../core/models';
 import { MultiPurposeService } from '../../../../core/services/multi-purpose.service';
 import { FormControl, FormGroup, NgForm, Validators } from '@angular/forms';
-import { ThreeDaysDianiXWasiniIslandExcursionComponent } from '@app/modules/campaigns';
+
 
 @Component({
   selector: 'app-inquire-now',
@@ -54,7 +54,7 @@ export class InquireNowComponent implements OnInit {
     }
   }
 
-  compareDates(startDate, endDate) {
+  compareDates(startDate: any, endDate: any) {
     return (startDate <= endDate);
   }
 }

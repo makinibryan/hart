@@ -1,0 +1,1 @@
+export * from './all-group-safaris.component';

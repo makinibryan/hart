@@ -6,13 +6,16 @@ import { CampaignsRoutingModule } from './campaigns-routing.module';
 
 import { AllCampaignsComponent,
          LongonotComponent,
-         ThreeDaysDianiXWasiniIslandExcursionComponent
+         ThreeDaysDianiXWasiniIslandExcursionComponent,
+         MombasaThreeDaysTwoNightsBeachDazeComponent
          } from './components';
+
 
 @NgModule({
   declarations: [LongonotComponent,
     ThreeDaysDianiXWasiniIslandExcursionComponent,
-    AllCampaignsComponent
+    AllCampaignsComponent,
+    MombasaThreeDaysTwoNightsBeachDazeComponent
   ],
   imports: [
     CommonModule,

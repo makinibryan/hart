@@ -51,6 +51,7 @@ import {
     DayMtLongonotNationalParkComponent,
     DayFourteenFallsComponent
 } from './components';
+import { AllGroupSafarisComponent } from './components/group-safaris/all-group-safaris/all-group-safaris.component';
 
 @NgModule({
     imports: [
@@ -103,7 +104,8 @@ import {
         DayLakeNakuruNationalParkComponent,
         DayLakeBogoriaNationalReserveComponent,
         DayMtLongonotNationalParkComponent,
-        DayFourteenFallsComponent
+        DayFourteenFallsComponent,
+        AllGroupSafarisComponent
     ]
 })
 export class DomesticsModule{}

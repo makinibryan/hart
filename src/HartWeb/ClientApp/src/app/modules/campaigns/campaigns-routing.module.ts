@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { AllCampaignsComponent, LongonotComponent, ThreeDaysDianiXWasiniIslandExcursionComponent } from './components';
+import { AllCampaignsComponent,
+        LongonotComponent,
+        MombasaThreeDaysTwoNightsBeachDazeComponent,
+        ThreeDaysDianiXWasiniIslandExcursionComponent } from './components';
 
 const routes: Routes = [
     {
@@ -15,6 +18,10 @@ const routes: Routes = [
     {
       path: 'diani',
       component: ThreeDaysDianiXWasiniIslandExcursionComponent
+    },
+    {
+      path: 'mombasa-three-days-two-nights-beach-daze',
+      component: MombasaThreeDaysTwoNightsBeachDazeComponent
     }
 ];
 

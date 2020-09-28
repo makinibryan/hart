@@ -14,6 +14,7 @@ export class ContactUsComponent implements OnInit {
   model: ContactForm;
   isSubmitted: boolean = false;
   isError: boolean = false;
+  showSpinner: boolean = false;
 
   constructor(private multiPurposeService: MultiPurposeService) {
     this.model = new ContactForm();
@@ -22,8 +23,10 @@ export class ContactUsComponent implements OnInit {
   ngOnInit(): void {  }
 
   async submitForm(contactForm: NgForm) {
+    this.showSpinner = true;
     this.multiPurposeService.submitContactForm(this.model).subscribe(
       () => {
+        this.showSpinner = false;
         this.isSubmitted = true;
         contactForm.resetForm();
         console.log(`Contact form successfully submitted for processing`);

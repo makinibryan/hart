@@ -9,6 +9,7 @@
         public string SenderPassword { get; set; }
         public string RecipientName { get; set; }
         public string RecipientEmail { get; set; }
-        public string Subject { get; set; }
+        public string SubjectContactForm { get; set; }
+        public string SubjectInquiryForm { get; set; }
     }
 }

@@ -35,7 +35,7 @@ namespace Hart.Domain
         }
 
         /// <summary>
-        /// Submit contact and send email
+        /// Save contact request to db and send email
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
@@ -49,7 +49,7 @@ namespace Hart.Domain
         }
 
         /// <summary>
-        /// Submit inquiry and send email
+        /// Save inquiry request to db and send email
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
@@ -69,6 +69,8 @@ namespace Hart.Domain
         /// <returns></returns>
         private async Task SaveContactForm(ContactFormRequest request) 
         {
+            // Todo: Replace with automapper
+
             var form = new ContactForm
             {
                 FirstName = request.FirstName,
@@ -89,6 +91,8 @@ namespace Hart.Domain
         /// <returns></returns>
         private async Task SaveInquiryForm(InquiryFormRequest request)
         {
+            // Todo: Replace with automapper
+
             var form = new InquiryForm
             {
                 FirstName = request.FirstName,
@@ -98,7 +102,7 @@ namespace Hart.Domain
                 Message = request.Message,
                 Title = request.Title,
                 TourPackage = request.TourPackage,
-                NumberOfAdults = request.NumberOfAdutls,
+                NumberOfAdults = request.NumberOfAdults,
                 NumberOfChildren = request.NumberOfChildren,
                 ArrivalDate = request.ArrivalDate,
                 DepartureDate = request.DepartureDate,

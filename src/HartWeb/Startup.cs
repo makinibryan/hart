@@ -82,6 +82,14 @@ namespace HartWeb
                 app.UseExceptionHandler("/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
+                app.UseSpaStaticFiles(new StaticFileOptions
+                {
+                    OnPrepareResponse = context =>
+                    {
+                        context.Context.Response.Headers.Add("Cache-Control", "max-age=31536000");
+                        context.Context.Response.Headers.Add("Expires", "31536000");
+                    }
+                });
             }
 
             app.UseCors(MyAllowSpecificOrigins);
@@ -105,6 +113,18 @@ namespace HartWeb
                 // see https://go.microsoft.com/fwlink/?linkid=864501
 
                 spa.Options.SourcePath = "ClientApp";
+                spa.Options.DefaultPageStaticFileOptions = new StaticFileOptions 
+                {
+                    OnPrepareResponse = context =>
+                    {
+                        // never cache index.html
+                        if (context.File.Name == "index.html")
+                        {
+                            context.Context.Response.Headers.Add("Cache-Control", "no-cache, no-store");
+                            context.Context.Response.Headers.Add("Expires", "-1");
+                        }
+                    }
+                };
 
                 if (env.IsDevelopment())
                 {

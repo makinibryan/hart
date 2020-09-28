@@ -116,22 +116,26 @@
 								<div class="col-sm-6">
 									<!-- Todo: Add captcha here.... -->
 									<!-- <label>Human verification</label> -->								
-									<input type="submit" class="btn_1" [disabled]="!contactForm.valid">
-								</div>								
+									<input type="submit" class="btn_1" [disabled]="!contactForm.valid">										
+								</div>														
+							</div>
+							<div id="spinner-position" class="row">															
+								<div class="col-sm-6" *ngIf="showSpinner">
+									<div class="spinner-border text-success" role="status">
+										<span class="sr-only">Loading...</span>
+									</div>								 	
+								</div>															
 							</div>
 							<div class="row">
 								<div class="col-sm-12" *ngIf="isSubmitted">
-								 	<label id="form-submit">Message successfully submitted, we will get back to you soon, thank you!</label>
+								 	<label class="form-submit">Message successfully submitted, we will get back to you soon, thank you!</label>
 								</div>	
 								<div class="col-sm-12" *ngIf="isError">
-									<label id="form-submit">An error has occurred sending you request, please try again later, thanks you!</label>
+									<label class="form-submit">An error has occurred sending your request. Please try again later, thank you!</label>
 							   </div>								
 							</div>						
-						</form>
-					<!-- </div> -->
-					<div class="spinner-border text-success" role="status">
-						<span class="sr-only">Loading...</span>
-					  </div>
+						</form>				
+					
 				</div>
 			</div>
 			<!-- End col-md-8 -->

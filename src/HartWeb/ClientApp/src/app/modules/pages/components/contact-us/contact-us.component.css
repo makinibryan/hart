@@ -1,9 +1,9 @@
 .ng-valid[required], .ng-valid.required  {
-  border-left: 5px solid #42A948; /* green */
+  border-left: 5px solid #42A948; 
 }
 
 .ng-invalid:not(form)  {
-  border-left: 5px solid #a94442; /* red */
+  border-left: 5px solid #a94442; 
 }
 
 #social_contact_us {
@@ -44,7 +44,7 @@
   color: #111;
 }
 
-#form-submit {
+.form-submit {
   color: red; 
   margin-top: 30px;
 }
@@ -62,4 +62,12 @@
 /* Media queries */
 @media screen and (max-width: 720px) {
 
+}
+
+#spinner-position {
+  margin-top: 15px;
+}
+
+.text-success {
+  color: #445C2B !important;
 }

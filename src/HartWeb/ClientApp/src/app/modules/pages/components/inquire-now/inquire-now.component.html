@@ -367,11 +367,11 @@
 							</div>							
 						</div>
 						<div class="row">
-							<div class="col-sm-1" style="padding-right: 0px;">
-								<div class="form-group">									
-									<input type="checkbox" name="newsLetter" class="form-control" placeholder="Enter departure point" 
+							<div class="col-sm-1 " style="padding-right: 0px;">
+								<div class="form-group">																										
+									<input id="news-letter" type="checkbox" name="newsLetter" class="form-control" placeholder="Enter departure point" 
 									[(ngModel)]="model.newsLetter" required #newsLetterInput="ngModel" ng-untouched
-									ng-pristine ng-valid>
+									ng-pristine ng-valid>									
 									<div *ngIf="newsLetterInput.invalid && (newsLetterInput.dirty || newsLetterInput.touched)"
 										class="alert alert-danger">
 										<div *ngIf="newsLetterInput.errors?.required">
@@ -380,7 +380,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-11" style="padding-left: 0px;">
+							<div class="col-sm-11" style="padding-top: 10px; margin-left: 0px;">
 								<div class="form-group" style="margin-left: 0px;">
 									<label>Yes please, I'd like to receive your Newsletter</label>
 								</div>

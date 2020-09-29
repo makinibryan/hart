@@ -60,3 +60,21 @@
   color: red; 
   margin-top: 30px;
 }
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(.5); /* IE */
+  -moz-transform: scale(.5); /* FF */
+  -webkit-transform: scale(.5); /* Safari and Chrome */
+  -o-transform: scale(.5); /* Opera */
+  transform: scale(.5);
+  padding: 1px;
+}
+
+
+@media screen and (max-width: 720px) {
+  #news-letter {
+      margin-left: 5px;
+  }
+}

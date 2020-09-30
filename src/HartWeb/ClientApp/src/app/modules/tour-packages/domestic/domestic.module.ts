@@ -70,7 +70,13 @@ import {
     GroupSafariMagnificentExcursionsComponent,
     GroupSafariHomeOfTheWildElephantComponent,
     GroupSafariBushAndLakeComponent,
-    GroupSafariFourDayMarsabitChalbiDesertAndSamburu
+    GroupSafariFourDayMarsabitChalbiDesertAndSamburu,
+    BeachTurtleBayComponent,
+    AberdareCountyClubComponent,
+    MaraLeisureCampComponent,
+    MileleResortNakuruComponent,
+    TheWinstonHotelComponent,
+    SerenaHotelsComponent
 } from './components';
 
 
@@ -146,7 +152,13 @@ import {
         GroupSafariMagnificentExcursionsComponent,
         GroupSafariHomeOfTheWildElephantComponent,
         GroupSafariBushAndLakeComponent,
-        GroupSafariFourDayMarsabitChalbiDesertAndSamburu
+        GroupSafariFourDayMarsabitChalbiDesertAndSamburu,
+        BeachTurtleBayComponent,
+        AberdareCountyClubComponent,
+        MaraLeisureCampComponent,
+        MileleResortNakuruComponent,
+        TheWinstonHotelComponent,
+        SerenaHotelsComponent
     ]
 })
-export class DomesticsModule{}
+export class DomesticsModule{ }

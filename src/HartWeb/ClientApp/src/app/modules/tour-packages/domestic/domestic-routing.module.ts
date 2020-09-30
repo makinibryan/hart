@@ -74,7 +74,7 @@ const routes: Routes = [
         component: MountainSixDaysClimbingChogoriaEasyPaceRouteComponent
     },
     {
-        path: 'private-safaris',
+        path: 'safaris',
         component: AllSafarisComponent
     },
     {

@@ -15,7 +15,7 @@ export class InquireNowComponent implements OnInit {
   isSubmitted: boolean = false;
   isError: boolean = false;
   showSpinner: boolean = false;
-  validDates: boolean = false;
+  isValidDate: boolean = false;
   showInvalidDateMessage = false;
 
   constructor(private multiPurposeService: MultiPurposeService) { }
@@ -29,12 +29,9 @@ export class InquireNowComponent implements OnInit {
     const arrivalDate = this.model.arrivalDate;
     const departureDate = this.model.departureDate;
 
-    this.validDates = this.compareDates(arrivalDate, departureDate);
-
-    // Todo: Allow all dates
-    this.validDates = true;
-
-    if (this.validDates) {
+    this.isValidDate = this.compareDates(arrivalDate, departureDate);
+   
+    if (this.isValidDate) {
       this.showSpinner = true;
       this.multiPurposeService.submitInquiryForm(this.model).subscribe(
         () => {

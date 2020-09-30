@@ -49,10 +49,30 @@ import {
     DayLakeNakuruNationalParkComponent,
     DayLakeBogoriaNationalReserveComponent,
     DayMtLongonotNationalParkComponent,
-    DayFourteenFallsComponent
+    DayFourteenFallsComponent,
+    AllPrivateSafarisComponent,
+    AllGroupSafarisComponent,
+    GroupSafariThreeDaysTheHemmingwayTrailComponent,
+    GroupSafariFourDaysMaasaiMaraNakuruComponent,
+    GroupSafariFiveDaysMaasaiMaraLakeNakuruComponent,
+    GroupSafariSixDaysMaasaiMaraLakeNakuruBaringoComponent,
+    GroupSafariSevenDaysMaasaiMaraSamburuComponent,
+    GroupSafariEightDaysTurkanaSpecialComponent,
+    GroupSafariNineDaysMaasaiMaraKisumuAmboseliComponent,
+    GroupSafariTheGreatMaraThreeDaysAndTwoNightsComponent,
+    GroupSafariTheGreatMaraElevenDaysAndTenNightsComponent,
+    GroupSafariHomeOfTheBigNineDaysAndEightNightsComponent,
+    GroupSafariBreathtakingWondersOfKenyaComponent,
+    GroupSafariReconnectWithNatureSevenDaysAndSixNightsComponent,
+    GroupSafariGreatLakesSixDaysAndFiveNightsComponent,
+    GroupSafariTheGreatMaraAndAmboseliSixDaysAndFiveNightsComponent,
+    GroupSafariLandGiantsFiveDaysAndFourNightsComponent,
+    GroupSafariMagnificentExcursionsComponent,
+    GroupSafariHomeOfTheWildElephantComponent,
+    GroupSafariBushAndLakeComponent,
+    GroupSafariFourDayMarsabitChalbiDesertAndSamburu
 } from './components';
-import { AllGroupSafarisComponent } from './components/group-safaris/all-group-safaris/all-group-safaris.component';
-import { AllPrivateSafarisComponent } from './components/private-safaris/all-private-safaris/all-private-safaris.component';
+
 
 @NgModule({
     imports: [
@@ -107,7 +127,26 @@ import { AllPrivateSafarisComponent } from './components/private-safaris/all-pri
         DayMtLongonotNationalParkComponent,
         DayFourteenFallsComponent,
         AllGroupSafarisComponent,
-        AllPrivateSafarisComponent
+        AllPrivateSafarisComponent,
+        GroupSafariThreeDaysTheHemmingwayTrailComponent,
+        GroupSafariFourDaysMaasaiMaraNakuruComponent,
+        GroupSafariFiveDaysMaasaiMaraLakeNakuruComponent,
+        GroupSafariSixDaysMaasaiMaraLakeNakuruBaringoComponent,
+        GroupSafariSevenDaysMaasaiMaraSamburuComponent,
+        GroupSafariEightDaysTurkanaSpecialComponent,
+        GroupSafariNineDaysMaasaiMaraKisumuAmboseliComponent,
+        GroupSafariTheGreatMaraThreeDaysAndTwoNightsComponent,
+        GroupSafariTheGreatMaraElevenDaysAndTenNightsComponent,
+        GroupSafariHomeOfTheBigNineDaysAndEightNightsComponent,
+        GroupSafariBreathtakingWondersOfKenyaComponent,
+        GroupSafariReconnectWithNatureSevenDaysAndSixNightsComponent,
+        GroupSafariGreatLakesSixDaysAndFiveNightsComponent,
+        GroupSafariTheGreatMaraAndAmboseliSixDaysAndFiveNightsComponent,
+        GroupSafariLandGiantsFiveDaysAndFourNightsComponent,
+        GroupSafariMagnificentExcursionsComponent,
+        GroupSafariHomeOfTheWildElephantComponent,
+        GroupSafariBushAndLakeComponent,
+        GroupSafariFourDayMarsabitChalbiDesertAndSamburu
     ]
 })
 export class DomesticsModule{}

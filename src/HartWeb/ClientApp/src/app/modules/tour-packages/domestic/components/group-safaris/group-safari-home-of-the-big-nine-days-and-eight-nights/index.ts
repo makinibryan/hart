@@ -1,0 +1,1 @@
+export * from './group-safari-home-of-the-big-nine-days-and-eight-nights.component';

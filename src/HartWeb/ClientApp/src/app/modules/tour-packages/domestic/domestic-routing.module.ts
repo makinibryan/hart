@@ -45,7 +45,11 @@ import {
     DayTripToHellsGateNationalParkComponent,
     DayLakeNakuruNationalParkComponent,
     DayLakeBogoriaNationalReserveComponent,
-    DayMtLongonotNationalParkComponent, DayFourteenFallsComponent
+    DayMtLongonotNationalParkComponent,
+    DayFourteenFallsComponent,
+    AllPrivateSafarisComponent,
+    AllGroupSafarisComponent
+
 } from './components';
 
 const routes: Routes = [
@@ -70,7 +74,7 @@ const routes: Routes = [
         component: MountainSixDaysClimbingChogoriaEasyPaceRouteComponent
     },
     {
-        path: 'safaris',
+        path: 'private-safaris',
         component: AllSafarisComponent
     },
     {
@@ -249,6 +253,15 @@ const routes: Routes = [
     {
         path: 'fourteen-falls',
         component: DayFourteenFallsComponent
+    },
+    // For now private safaris will be mapped to safaris.
+    // {
+    //     path: 'private-safaris',
+    //     component: AllPrivateSafarisComponent
+    // },
+    {
+        path: 'group-safaris',
+        component: AllGroupSafarisComponent
     }
 ];
 

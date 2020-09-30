@@ -9,7 +9,9 @@ import { Router, NavigationEnd } from '@angular/router';
 })
 export class AllSafarisComponent implements OnInit {
 
-  constructor(private router: Router ) {
+  //showGroupContent: boolean = false;
+
+  constructor(private router: Router) {
 
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
@@ -19,6 +21,9 @@ export class AllSafarisComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    // if (this.router.url.includes('safaris/group')) {
+    //   this.showGroupContent = true;
+    // }
   }
 
 }

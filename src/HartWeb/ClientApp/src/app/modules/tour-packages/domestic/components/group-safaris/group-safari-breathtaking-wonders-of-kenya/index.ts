@@ -1,0 +1,1 @@
+export * from './group-safari-breathtaking-wonders-of-kenya.component';

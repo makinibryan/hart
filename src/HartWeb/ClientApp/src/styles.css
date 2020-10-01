@@ -49,12 +49,13 @@
         display: none;
     } 
 
-    .campaign-content {
+    .campaign-content-mobile-display {
         display: none;
     }
 
-    .campaign-content-mobile {
-            font-size: 14px;
+    .campaign-date {
+        color: aliceblue;
+        font-size: 8px;
     }
 }
 
@@ -90,6 +91,14 @@
 .popular-packages {
     color: #60b10a; 
 }
+
+.campaign-date {
+    color: aliceblue;
+ }
+
+ /* .price {       
+    color: #ffbb33;
+ } */
 
 
 

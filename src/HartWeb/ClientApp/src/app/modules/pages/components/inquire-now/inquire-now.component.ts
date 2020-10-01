@@ -30,8 +30,9 @@ export class InquireNowComponent implements OnInit {
     const departureDate = this.model.departureDate;
 
     this.isValidDate = this.compareDates(arrivalDate, departureDate);
-   
+
     if (this.isValidDate) {
+      this.showInvalidDateMessage = true;
       this.showSpinner = true;
       this.multiPurposeService.submitInquiryForm(this.model).subscribe(
         () => {

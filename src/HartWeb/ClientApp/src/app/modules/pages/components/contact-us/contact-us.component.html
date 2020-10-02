@@ -100,7 +100,7 @@
 									<div class="form-group">
 										<label>Message</label>
 										<textarea rows="5" id="message_contact" name="message_contact"
-											class="form-control" placeholder="Write your message" style="height:200px;"
+											class="form-control message-textarea" placeholder="Write your message" 
 											[(ngModel)]="model.message" required #messageInput="ngModel" ng-untouched
 											ng-pristine ng-valid></textarea>
 											<div *ngIf="messageInput.invalid && (messageInput.dirty || messageInput.touched)"
@@ -144,26 +144,25 @@
 			
 			<div class="col-md-4 contact-us">
 				<div class="box_style_1">
-					<h4 style="text-align: center;
-					        font-size: 22px;">Address <span><i class="icon-pin pull-right"></i></span></h4>
+					<h4 class="address-heading" >Address <span><i class="icon-pin pull-right"></i></span></h4>
 					<p>
 						View Park Towers, 1st Floor Suite 3 Monrovia Street, Utalii Lane Nairobi, Kenya
 					</p>
 					<hr>
-					<h4 style="text-align: center;
-					font-size: 22px;">Help center <span><i class="icon-help pull-right"></i></span></h4>
+					<h4 class="address-heading">Help center <span><i class="icon-help pull-right"></i></span></h4>
 					<p>
 						Get your questions answered about bookings, requirments, travel policies and so much more. We
 						can help.
 					</p>
 					<ul id="contact-info">
-						<li><abbr title="Mobile" style="text-decoration: none;">M:</abbr> (+254) 746 425 390</li>
-						<li><abbr title="Mobile" style="text-decoration: none;">M:</abbr> (+254) 721 913 292</li>
-						<li><abbr title="Mobile" style="text-decoration: none;">M:</abbr> (+254) 739 611 948</li>
-						<li><abbr title="Mobile" style="text-decoration: none;">M:</abbr> (+254) 724 338 834</li>
-						<li><abbr title="Mobile" style="text-decoration: none;">M:</abbr> (+254) 722 469 733</li>
-						<li><a href="mailto:info@h-artofafricasafaris.com"><abbr title="Email"
-									style="text-decoration: none;">E:</abbr> info@h-artofafricasafaris.com</a>
+						<li><abbr title="Mobile" >M:</abbr> (+254) 746 425 390</li>
+						<li><abbr title="Mobile" >M:</abbr> (+254) 721 913 292</li>
+						<li><abbr title="Mobile">M:</abbr> (+254) 739 611 948</li>
+						<li><abbr title="Mobile" >M:</abbr> (+254) 724 338 834</li>
+						<li><abbr title="Mobile" >M:</abbr> (+254) 722 469 733</li>
+						<li>
+							<a href="mailto:info@h-artofafricasafaris.com"><abbr title="Email"
+									>E:</abbr> info@h-artofafricasafaris.com</a>
 						</li>
 					</ul>
 				</div>			

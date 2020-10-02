@@ -25,7 +25,9 @@
 .rating .voted {
 	color: #445C2B;
 }
-
+.about-Us-Icons{
+    color: #417a04;
+}
 @media screen and (max-width: 720px) {
  
     h3 {

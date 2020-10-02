@@ -192,31 +192,8 @@
 
                             Read more about Private Hiking Day Trip to Mt. Longonot from Nairobi 2020
                         </div>
-                        <div class="row row-spacing">
-                            <div class="col-md-6">
-                                <h4>Prices</h4>
-                                <table>                                   
-                                    <tr>
-                                      <td>CITIZENS:</td>
-                                      <td>kshs. 2,600</td>                                    
-                                    </tr>
-                                    <tr>
-                                      <td>KIDS:</td>
-                                      <td>kshs. 2,200</td>                                     
-                                    </tr>
-                                    <tr>
-                                      <td>RESIDENTS:</td>
-                                      <td>kshs. 3,700</td>                                     
-                                    </tr>
-                                    <tr>
-                                      <td>COUPLES:</td>
-                                      <td>kshs. 5,000</td>                                   
-                                    </tr>                                                           
-                                  </table>           
-                            </div>
-                            <div class="col-md-6">                               
-                            </div>                         
-                        </div>
+                        
+                        
                         <div class="row row-spacing">
                             <div class="col-md-6">
                                 <h4>What's included?</h4>
@@ -287,22 +264,41 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row row-spacing">
                     <div class="col-md-6">
-                        <h4><strong>PAYMENTS AND RESERVATIONS</strong></h4>
-                        <span id="reservation"><strong>Reserve by making a 50% down payment and clear the balance before departure.</strong></span>
+                        <h4><strong>PAYMENTS <span>AND</span> RESERVATIONS</strong></h4>
+                        <table class="price-table">
+                            <thead>
+                                <tr>
+                                    <th>Package</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Citizens</td>
+                                    <td>Kshs2,600</td>
+                                </tr>
+                                <tr class="active-row">
+                                    <td>Kids</td>
+                                    <td>Kshs 2,200</td>
+                                </tr>
+                                <tr>
+                                    <td>Residents</td>
+                                    <td>Ksh 3,700</td>
+                                </tr>
+                                <tr class="active-row">
+                                    <td>Couples</td>
+                                    <td>Ksh 5,000</td>
+                                </tr>
+                                <!-- and so on... -->
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="col-md-6">
-                        <div class="lipa">
-                            <h4><strong>LIPA NA MPESA</strong> </h4>
-                            <p>
-                                Paybill Number: <strong> 874323</strong><br>
-                                H-ART OF AFRICA SAFARIS LTD
-                            </p>
 
-                        </div>
-                    </div>
+
                 </div>
+                <app-campaign-payment-details></app-campaign-payment-details>
 
             </div>
             <!--End  single_tour_desc-->

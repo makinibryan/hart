@@ -7,4 +7,6 @@ export * from './footer';
 export * from './pre-load-spinner';
 export * from './side-menu';
 export * from './request-quote-button';
+export * from './campaign-payment-details';
+export * from './social-media';
 

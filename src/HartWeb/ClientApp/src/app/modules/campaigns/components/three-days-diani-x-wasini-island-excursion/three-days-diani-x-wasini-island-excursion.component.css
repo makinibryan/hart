@@ -19,26 +19,7 @@
 	margin-top: 20px;
 }
 
-.prices {
-	margin-right: 20 px;
-}
 
-
-
-
-
-
-table {	
-	border-collapse: collapse;
-	width: 100%;
-  }
-  
-  td, th {
-	border: 1px solid #dddddd;
-	text-align: left;
-	padding: 8px;
-  }
-  
   #reservation {
 	  color:  #60b10a;
   }

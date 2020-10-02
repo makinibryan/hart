@@ -100,5 +100,45 @@
     color: #ffbb33;
  } */
 
+/* start of campaign styling*/
+.price-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.price-table thead tr {
+    background-color: #445C2B;
+    color: #ffffff;
+    text-align: left;
+}
+.price-table th,
+.price-table td {
+    padding: 12px 15px;
+}
+.price-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
 
+.price-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
 
+.price-table tbody tr:last-of-type {
+    border-bottom: 2px solid  #417a04;
+}
+@media only screen and (max-width: 600px){
+    .price-table{
+        min-width: 380px;
+    }
+}
+
+/*end of price table styling*/
+.campaign-content{
+    margin-top: 1.75rem;
+    
+}
+.row-spacing{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

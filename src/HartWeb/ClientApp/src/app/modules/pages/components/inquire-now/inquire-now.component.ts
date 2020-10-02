@@ -48,7 +48,7 @@ export class InquireNowComponent implements OnInit {
       );
     }
     else {
-      this.showInvalidDateMessage = true;
+      this.showInvalidDateMessage = false;
     }
   }
 

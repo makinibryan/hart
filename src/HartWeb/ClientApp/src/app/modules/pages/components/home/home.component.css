@@ -20,6 +20,11 @@
         color: #ffffff;
         font-family: "Gochi Hand", cursive;
     }
+
+    .read-more-mobile {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
 }
 
 .video_title {
@@ -62,5 +67,9 @@
 
 .price_description {
     margin-right: 50px;
+}
+
+.title-spacing {
+    margin-top: 40px;
 }
 

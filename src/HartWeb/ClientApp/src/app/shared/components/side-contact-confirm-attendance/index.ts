@@ -1,0 +1,1 @@
+export * from './side-contact-confirm-attendance.component';

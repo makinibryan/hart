@@ -15,11 +15,12 @@ import {
   BookByPhoneLeftComponent,
   SideMenuComponent,
   SocialMediaComponent,
-  CampaignPaymentDetailsComponent
+  CampaignPaymentDetailsComponent,
+  RequestQuoteButtonComponent,
+  SideContactConfirmAttendanceComponent
 
  } from './components';
-import {  } from './components/social-media/social-media.component';
-import { RequestQuoteButtonComponent } from './components/request-quote-button/request-quote-button.component';
+
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { RequestQuoteButtonComponent } from './components/request-quote-button/r
   SideMenuComponent,
   SocialMediaComponent,
   RequestQuoteButtonComponent,
-  CampaignPaymentDetailsComponent
+  CampaignPaymentDetailsComponent,
+  SideContactConfirmAttendanceComponent
 ],
   exports: [
       FlexLayoutModule,
@@ -55,7 +57,8 @@ import { RequestQuoteButtonComponent } from './components/request-quote-button/r
       BookByPhoneLeftComponent,
       SideMenuComponent,
       RequestQuoteButtonComponent,
-      CampaignPaymentDetailsComponent
+      CampaignPaymentDetailsComponent,
+      SideContactConfirmAttendanceComponent
   ],
   entryComponents: [
   ]

@@ -12,3 +12,4 @@ export * from './mara-leisure-camp';
 export * from './milele-resort-nakuru';
 export * from './the-winston-hotel';
 export * from './serena-hotels';
+export * from './beach-serena-resort-and-spa';

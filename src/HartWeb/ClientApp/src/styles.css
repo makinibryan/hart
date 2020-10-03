@@ -142,3 +142,11 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+/* Every Content packages; includes headings and divs*/
+.package-content{
+    margin-bottom: 20px;
+}
+/*Start of new beach styling*/
+.amenity-list li{
+   list-style-type: none;
+}

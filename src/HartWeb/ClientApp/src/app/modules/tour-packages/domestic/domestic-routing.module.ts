@@ -47,6 +47,7 @@ import {
     DayLakeBogoriaNationalReserveComponent,
     DayMtLongonotNationalParkComponent,
     DayFourteenFallsComponent,
+    // unused component fix?
     AllPrivateSafarisComponent,
     AllGroupSafarisComponent,
     GroupSafariThreeDaysTheHemmingwayTrailComponent,
@@ -68,12 +69,14 @@ import {
     GroupSafariHomeOfTheWildElephantComponent,
     GroupSafariBushAndLakeComponent,
     GroupSafariFourDayMarsabitChalbiDesertAndSamburu,
-    BeachTurtleBayComponent, 
-    AberdareCountyClubComponent, 
-    MaraLeisureCampComponent, 
-    MileleResortNakuruComponent, 
-    TheWinstonHotelComponent, 
-    SerenaHotelsComponent
+    BeachTurtleBayComponent,
+    AberdareCountyClubComponent,
+    MaraLeisureCampComponent,
+    MileleResortNakuruComponent,
+    TheWinstonHotelComponent,
+    SerenaHotelsComponent,
+    SafariBushAndBeachFamilyComponent,
+    BeachSerenaResortAndSpaComponent
 
 } from './components';
 
@@ -82,6 +85,7 @@ const routes: Routes = [
         path: '',
         component: AllDomesticsComponent
     },
+    // start of mountain routes
     {
         path: 'mountains',
         component: AllMountainsComponent
@@ -131,6 +135,11 @@ const routes: Routes = [
         path: 'nine-days-maasai-mara-safari',
         component: SafariNineDaysMaasaiMaraKisumuAmboseliComponent
     },
+    {
+        path: 'safari-bush-and-beach-family',
+        component: SafariBushAndBeachFamilyComponent
+    },
+    // start of beach routes
     {
         path: 'beaches',
         component: AllBeachesComponent
@@ -204,6 +213,11 @@ const routes: Routes = [
         component: SerenaHotelsComponent
     },
     {
+        path: 'beach-serena-resort-and-spa',
+        component: BeachSerenaResortAndSpaComponent
+    },
+    // start of day trips routes
+    {
         path: 'day-trips',
         component: AllDayTripsComponent
     },
@@ -227,10 +241,12 @@ const routes: Routes = [
         path: 'national-park-tour',
         component: DayNairobiNationalParkComponent
     },
+    // start of tours info route
     {
         path: 'tours-info',
         component: ToursInfoComponent
     },
+    // start of safari routes
     {
         path: 'safari-the-great-mara-three-days-and-two-nights',
         component: SafariTheGreatMaraThreeDaysAndTwoNightsComponent
@@ -304,6 +320,7 @@ const routes: Routes = [
         path: 'fourteen-falls',
         component: DayFourteenFallsComponent
     },
+    // start of sfari routes
     {
         path: 'group-safaris',
         component: AllGroupSafarisComponent

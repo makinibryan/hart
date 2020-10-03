@@ -76,9 +76,10 @@ import {
     MaraLeisureCampComponent,
     MileleResortNakuruComponent,
     TheWinstonHotelComponent,
-    SerenaHotelsComponent
+    SerenaHotelsComponent,
+    SafariBushAndBeachFamilyComponent,
+    BeachSerenaResortAndSpaComponent
 } from './components';
-
 
 @NgModule({
     imports: [
@@ -158,7 +159,9 @@ import {
         MaraLeisureCampComponent,
         MileleResortNakuruComponent,
         TheWinstonHotelComponent,
-        SerenaHotelsComponent
+        SerenaHotelsComponent,
+        SafariBushAndBeachFamilyComponent,
+        BeachSerenaResortAndSpaComponent
     ]
 })
 export class DomesticsModule{ }

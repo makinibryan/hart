@@ -24,15 +24,9 @@ export class InquireNowComponent implements OnInit {
     this.model = new InquiryForm();
   }
 
+  // Todo: Add date validation
   async submitForm(inquiryForm: NgForm) {
 
-    const arrivalDate = this.model.arrivalDate;
-    const departureDate = this.model.departureDate;
-
-    this.isValidDate = this.compareDates(arrivalDate, departureDate);
-
-    if (this.isValidDate) {
-      this.showInvalidDateMessage = true;
       this.showSpinner = true;
       this.multiPurposeService.submitInquiryForm(this.model).subscribe(
         () => {
@@ -46,13 +40,5 @@ export class InquireNowComponent implements OnInit {
           console.log(`Error occurred submitting inquiry form with the following error: ${error}`);
         }
       );
-    }
-    else {
-      this.showInvalidDateMessage = false;
-    }
-  }
-
-  compareDates(startDate: any, endDate: any) {
-    return (startDate <= endDate);
   }
 }

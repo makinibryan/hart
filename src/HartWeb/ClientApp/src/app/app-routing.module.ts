@@ -10,6 +10,10 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'home',
+    loadChildren: () => import('./modules').then(m => m.PagesModule)
+  },
+  {
     path: 'blog',
     loadChildren: () => import ('./modules'). then(m => m.BlogModule)
   },
@@ -28,12 +32,7 @@ const routes: Routes = [
   {
     path: 'international',
     loadChildren: () => import ('./modules/tour-packages/international'). then (m => m.InternationalModule)
-  },
-  {
-    path: 'home',
-    loadChildren: () => import('./modules').then(m => m.PagesModule)
-  },
-
+  }
 ];
 
 @NgModule({

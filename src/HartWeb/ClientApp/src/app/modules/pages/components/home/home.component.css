@@ -72,4 +72,16 @@
 .title-spacing {
     margin-top: 40px;
 }
-
+#rev_slider_54_1_wrapper{
+    margin:0px auto;
+    background:transparent;
+    padding:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+#rev_slider_54_1{
+    display:none;
+}
+.home-page-icons{
+    color: #417a04;
+}

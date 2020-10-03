@@ -71,7 +71,19 @@ input[type=checkbox]
   transform: scale(.5);
   padding: 1px;
 }
-
+#message_contact{
+  height:200px;
+}
+#departure-placeholder{
+  padding-right: 0px;
+}
+#newsletter-area{
+  padding-top: 10px; 
+  margin-left: 0px;
+}
+#newsletter-box{
+  margin-left: 0px;
+}
 
 @media screen and (max-width: 720px) {
   #news-letter {

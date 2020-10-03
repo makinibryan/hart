@@ -312,7 +312,7 @@
 								<div class="form-group">
 									<label>Message</label>
 									<textarea rows="5" id="message_contact" name="message_contact" class="form-control"
-										placeholder="Write your message" style="height:200px;"
+										placeholder="Write your message" 
 										[(ngModel)]="model.message" required #messageInput="ngModel" ng-untouched
 										ng-pristine ng-valid></textarea>
 									<div *ngIf="messageInput.invalid && (messageInput.dirty || messageInput.touched)"
@@ -353,14 +353,14 @@
 							</div>							
 						</div>
 						<div class="row">
-							<div class="col-sm-1 " style="padding-right: 0px;">
+							<div class="col-sm-1 " id="departure-placeholder">
 								<div class="form-group">																										
 									<input id="news-letter" type="checkbox" name="newsLetter" class="form-control" placeholder="Enter departure point" 
 									[(ngModel)]="model.newsLetter">									
 								</div>
 							</div>
-							<div class="col-sm-11" style="padding-top: 10px; margin-left: 0px;">
-								<div class="form-group" style="margin-left: 0px;">
+							<div class="col-sm-11" id="newsletter-area" >
+								<div class="form-group" id="newsletter-box" >
 									<label>Yes please, I'd like to receive your Newsletter</label>
 								</div>
 							</div>

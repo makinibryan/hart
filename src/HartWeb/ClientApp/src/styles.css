@@ -95,16 +95,11 @@
 .campaign-date {
     color: aliceblue;
  }
-
- /* .price {       
-    color: #ffbb33;
- } */
-
-/* start of campaign styling*/
+ 
 .price-table {
     border-collapse: collapse;
     margin: 25px 0;
-    min-width: 400px;
+    width: 100%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 .price-table thead tr {
@@ -133,7 +128,6 @@
     }
 }
 
-/*end of price table styling*/
 .campaign-content{
     margin-top: 1.75rem;
     

@@ -73,7 +73,7 @@ import {
     MaraLeisureCampComponent, 
     MileleResortNakuruComponent, 
     TheWinstonHotelComponent, 
-    SerenaHotelsComponent
+    SerenaHotelsComponent, AllGetawaysComponent
 
 } from './components';
 
@@ -383,6 +383,10 @@ const routes: Routes = [
     {
         path: 'group-safari-three-days-the-hemmingway-trail',
         component: GroupSafariThreeDaysTheHemmingwayTrailComponent
+    },
+    {
+        path: 'getaways',
+        component: AllGetawaysComponent
     }
 ];
 

@@ -15,7 +15,7 @@ import {
   BookByPhoneLeftComponent,
   SideMenuComponent,
   SocialMediaComponent,
-  CampaignPaymentDetailsComponent,
+  PaymentDetailsComponent,
   RequestQuoteButtonComponent,
   SideContactConfirmAttendanceComponent
 
@@ -40,7 +40,7 @@ import {
   SideMenuComponent,
   SocialMediaComponent,
   RequestQuoteButtonComponent,
-  CampaignPaymentDetailsComponent,
+  PaymentDetailsComponent,
   SideContactConfirmAttendanceComponent
 ],
   exports: [
@@ -57,7 +57,7 @@ import {
       BookByPhoneLeftComponent,
       SideMenuComponent,
       RequestQuoteButtonComponent,
-      CampaignPaymentDetailsComponent,
+      PaymentDetailsComponent,
       SideContactConfirmAttendanceComponent
   ],
   entryComponents: [

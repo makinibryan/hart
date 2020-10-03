@@ -15,10 +15,12 @@
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 }
-
-
-
   
   #reservation {
 	  color:  #60b10a;
+  }
+
+  .payment-instruction {
+	  margin-bottom: 25px;
+	  font-weight: bold;
   }

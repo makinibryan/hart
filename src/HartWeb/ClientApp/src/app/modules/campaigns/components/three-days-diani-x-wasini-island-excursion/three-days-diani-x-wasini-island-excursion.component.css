@@ -23,3 +23,8 @@
   #reservation {
 	  color:  #60b10a;
   }
+
+.payment-instruction {
+	margin-bottom: 25px;
+	font-weight: bold;
+}

@@ -71,3 +71,13 @@
 .text-success {
   color: #445C2B !important;
 }
+.message-textarea{
+  height:200px;
+}
+.address-heading{
+  text-align: center;
+	font-size: 22px;
+}
+#contact-info li{
+  list-style-type: none;
+}

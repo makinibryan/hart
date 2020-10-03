@@ -6,7 +6,7 @@ import { EastAfricaModule } from './modules';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/',
+    redirectTo: '/home',
     pathMatch: 'full'
   },
   {

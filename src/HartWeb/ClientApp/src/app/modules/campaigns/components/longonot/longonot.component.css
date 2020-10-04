@@ -27,6 +27,7 @@
 
   .content-headers {
 	text-transform: uppercase;
+	font-weight: bold;
   }
 
   .price-group {

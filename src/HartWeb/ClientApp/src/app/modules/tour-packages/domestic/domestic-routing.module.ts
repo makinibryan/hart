@@ -76,7 +76,7 @@ import {
     TheWinstonHotelComponent,
     SerenaHotelsComponent,
     SafariBushAndBeachFamilyComponent,
-    BeachSerenaResortAndSpaComponent
+    BeachSerenaResortAndSpaComponent, GetawayTwoNightsMombasaNorthCoastComponent
 
 } from './components';
 
@@ -400,6 +400,10 @@ const routes: Routes = [
     {
         path: 'group-safari-three-days-the-hemmingway-trail',
         component: GroupSafariThreeDaysTheHemmingwayTrailComponent
+    },
+    {
+        path: 'getaway-two-nights-mombasa-north-coast',
+        component: GetawayTwoNightsMombasaNorthCoastComponent
     }
 ];
 

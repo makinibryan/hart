@@ -78,7 +78,8 @@ import {
     TheWinstonHotelComponent,
     SerenaHotelsComponent,
     SafariBushAndBeachFamilyComponent,
-    BeachSerenaResortAndSpaComponent
+    BeachSerenaResortAndSpaComponent,
+    GetawayTwoNightsMombasaNorthCoastComponent
 } from './components';
 
 @NgModule({
@@ -161,7 +162,8 @@ import {
         TheWinstonHotelComponent,
         SerenaHotelsComponent,
         SafariBushAndBeachFamilyComponent,
-        BeachSerenaResortAndSpaComponent
+        BeachSerenaResortAndSpaComponent,
+        GetawayTwoNightsMombasaNorthCoastComponent
     ]
 })
 export class DomesticsModule{ }

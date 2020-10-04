@@ -60,6 +60,10 @@
     .price-table{
         min-width: 100%;
     }
+
+    #contact_info {
+        display: none;
+    }
 }
 
 .tour_titles {

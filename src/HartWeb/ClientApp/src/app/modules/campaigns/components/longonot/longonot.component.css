@@ -24,3 +24,20 @@
 	  margin-bottom: 25px;
 	  font-weight: bold;
   }
+
+  .content-headers {
+	text-transform: uppercase;
+  }
+
+  .price-group {
+	  font-weight: bold;
+	  text-transform: uppercase;
+  }
+
+  @media only screen and (max-width: 720px) {
+	
+  }
+
+  .mobile-view-margins {
+	margin-bottom: 50px;
+  }

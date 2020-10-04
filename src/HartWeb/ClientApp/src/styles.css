@@ -57,6 +57,9 @@
         color: aliceblue;
         font-size: 10px;
     }
+    .price-table{
+        min-width: 100%;
+    }
 }
 
 .tour_titles {
@@ -102,8 +105,7 @@
     width: 100%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
-.price-table thead tr {
-    background-color: #445C2B;
+.price-table thead tr {  
     color: #ffffff;
     text-align: left;
 }
@@ -119,20 +121,13 @@
     background-color: #f3f3f3;
 }
 
-.price-table tbody tr:last-of-type {
-    border-bottom: 2px solid  #417a04;
-}
-@media only screen and (max-width: 600px){
-    .price-table{
-        min-width: 380px;
-    }
-}
-
-.campaign-content{
+.campaign-content {
     margin-top: 1.75rem;
     
 }
-.row-spacing{
+.row-spacing {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+

@@ -1,4 +1,7 @@
   ul li{
       list-style: none;
   }
-  
+  .payment-instruction {
+	  margin-bottom: 25px;
+	  font-weight: bold;
+  }

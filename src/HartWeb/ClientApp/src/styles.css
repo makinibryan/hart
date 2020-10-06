@@ -7,6 +7,21 @@
     font-size: 20px;
 }
 
+.beach-page-headers{
+    text-align: center;
+}
+.beach-sub-header-cont{
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+.beach-paragraphs{
+    text-align: center;
+}
+.beach-package-container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .mountain-days-spans{
     font-weight: 700;
@@ -41,6 +56,13 @@
     .campaign-date {
         color: aliceblue;
         font-size: 10px;
+    }
+    .price-table{
+        min-width: 100%;
+    }
+
+    #contact_info {
+        display: none;
     }
 }
 
@@ -80,20 +102,14 @@
 .campaign-date {
     color: aliceblue;
  }
-
- /* .price {       
-    color: #ffbb33;
- } */
-
-/* start of campaign styling*/
+ 
 .price-table {
     border-collapse: collapse;
     margin: 25px 0;
-    min-width: 400px;
+    width: 100%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
-.price-table thead tr {
-    background-color: #445C2B;
+.price-table thead tr {  
     color: #ffffff;
     text-align: left;
 }
@@ -109,60 +125,13 @@
     background-color: #f3f3f3;
 }
 
-.price-table tbody tr:last-of-type {
-    border-bottom: 2px solid  #417a04;
-}
-@media only screen and (max-width: 600px){
-    .price-table{
-        min-width: 380px;
-    }
-}
-
-/*end of price table styling*/
-.campaign-content{
+.campaign-content {
     margin-top: 1.75rem;
     
 }
-.row-spacing{
+.row-spacing {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-/* Every Content packages; includes headings and divs*/
-.package-content{
-    margin-bottom: 20px;
-}
-/*Start of new beach styling*/
-.amenity-list li{
-   list-style-type: none;
-}
-.amenities-area{
-    border-left: 1px solid #ddd;
-    padding-bottom: 0px;
-}
 
-    
 
-@media screen and (max-width: 1024px){
-    ul.amenity-list {
-        -moz-column-count: 2;
-        -moz-column-gap: 10px;
-        -webkit-column-count: 2;
-        -webkit-column-gap: 10px;
-        column-count: 2;
-        column-gap: 10px;
-    }
-    h4.package-content{
-        text-align: center;
-    }
-    .amenities-area{
-        border-left: none;
-    }
-    .requestqbtny{
-        text-align: center;
-    }
-}
-/* experimental color for the icons*/
-
-.fas{
-    color:  #445C2B;
-}

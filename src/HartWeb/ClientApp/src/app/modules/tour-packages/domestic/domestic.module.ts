@@ -76,10 +76,10 @@ import {
     MaraLeisureCampComponent,
     MileleResortNakuruComponent,
     TheWinstonHotelComponent,
-    SerenaHotelsComponent,
-    SafariBushAndBeachFamilyComponent,
-    BeachSerenaResortAndSpaComponent
+    SerenaHotelsComponent
 } from './components';
+import { AllGetawaysComponent } from './components/getaways/all-getaways/all-getaways.component';
+
 
 @NgModule({
     imports: [
@@ -160,8 +160,7 @@ import {
         MileleResortNakuruComponent,
         TheWinstonHotelComponent,
         SerenaHotelsComponent,
-        SafariBushAndBeachFamilyComponent,
-        BeachSerenaResortAndSpaComponent
+        AllGetawaysComponent
     ]
 })
 export class DomesticsModule{ }

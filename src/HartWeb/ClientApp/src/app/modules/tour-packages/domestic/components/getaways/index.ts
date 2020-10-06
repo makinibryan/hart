@@ -1,1 +1,0 @@
-export * from './getaway-two-nights-mombasa-north-coast';

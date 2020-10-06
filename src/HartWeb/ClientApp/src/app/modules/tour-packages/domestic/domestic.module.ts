@@ -76,7 +76,9 @@ import {
     MaraLeisureCampComponent,
     MileleResortNakuruComponent,
     TheWinstonHotelComponent,
-    SerenaHotelsComponent
+    SerenaHotelsComponent,
+    SafariBushAndBeachFamilyComponent,
+    BeachSerenaResortAndSpaComponent
 } from './components';
 import { AllGetawaysComponent } from './components/getaways/all-getaways/all-getaways.component';
 
@@ -160,7 +162,9 @@ import { AllGetawaysComponent } from './components/getaways/all-getaways/all-get
         MileleResortNakuruComponent,
         TheWinstonHotelComponent,
         SerenaHotelsComponent,
-        AllGetawaysComponent
+        AllGetawaysComponent,
+        SafariBushAndBeachFamilyComponent,
+        BeachSerenaResortAndSpaComponent
     ]
 })
 export class DomesticsModule{ }

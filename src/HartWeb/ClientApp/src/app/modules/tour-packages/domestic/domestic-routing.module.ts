@@ -73,7 +73,9 @@ import {
     MaraLeisureCampComponent, 
     MileleResortNakuruComponent, 
     TheWinstonHotelComponent, 
-    SerenaHotelsComponent, AllGetawaysComponent
+    SerenaHotelsComponent, 
+    AllGetawaysComponent,
+    SafariBushAndBeachFamilyComponent
 
 } from './components';
 
@@ -387,6 +389,10 @@ const routes: Routes = [
     {
         path: 'getaways',
         component: AllGetawaysComponent
+    },
+    {
+        path: 'safari-beach',
+        component: SafariBushAndBeachFamilyComponent
     }
 ];
 

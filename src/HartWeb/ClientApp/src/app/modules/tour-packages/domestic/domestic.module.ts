@@ -72,14 +72,13 @@ import {
     GroupSafariBushAndLakeComponent,
     GroupSafariFourDayMarsabitChalbiDesertAndSamburu,
     BeachTurtleBayComponent,
-    AberdareCountyClubComponent,
-    MaraLeisureCampComponent,
-    MileleResortNakuruComponent,
-    TheWinstonHotelComponent,
-    SerenaHotelsComponent
+    AllGetawaysComponent,
+    PackageMaraLeisureCampComponent,
+    PackageMileleResortNakuruComponent,
+    PackageTheWinstonHotelComponent,
+    PackageAberdareCountyClubComponent,
+    PackageSerenaHotelsComponent
 } from './components';
-import { AllGetawaysComponent } from './components/getaways/all-getaways/all-getaways.component';
-
 
 @NgModule({
     imports: [
@@ -155,12 +154,12 @@ import { AllGetawaysComponent } from './components/getaways/all-getaways/all-get
         GroupSafariBushAndLakeComponent,
         GroupSafariFourDayMarsabitChalbiDesertAndSamburu,
         BeachTurtleBayComponent,
-        AberdareCountyClubComponent,
-        MaraLeisureCampComponent,
-        MileleResortNakuruComponent,
-        TheWinstonHotelComponent,
-        SerenaHotelsComponent,
-        AllGetawaysComponent
+        AllGetawaysComponent,
+        PackageMaraLeisureCampComponent,
+        PackageMileleResortNakuruComponent,
+        PackageTheWinstonHotelComponent,
+        PackageAberdareCountyClubComponent,
+        PackageSerenaHotelsComponent
     ]
 })
 export class DomesticsModule{ }

@@ -1,5 +1,4 @@
-﻿using FluentValidation;
-using Hart.Contracts;
+﻿using Hart.Contracts;
 using HartWeb.Models;
 using System;
 using System.Collections.Generic;

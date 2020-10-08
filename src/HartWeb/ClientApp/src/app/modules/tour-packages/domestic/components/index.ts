@@ -1,3 +1,4 @@
+
 export * from './mountains';
 export * from './safaris';
 export * from './beaches';
@@ -8,3 +9,6 @@ export * from './private-safaris';
 export * from './group-safaris';
 export * from './getaways';
 export * from './packages';
+
+export * from './bush-safaris';
+export * from './coastal-holidays';

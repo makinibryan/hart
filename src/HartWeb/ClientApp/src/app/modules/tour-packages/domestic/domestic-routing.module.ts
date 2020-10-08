@@ -74,7 +74,9 @@ import {
     PackageMileleResortNakuruComponent,
     PackageTheWinstonHotelComponent,
     PackageSerenaHotelsComponent,
-    AllGetawaysComponent
+    AllGetawaysComponent,
+    AllBushSafariComponent,
+    AllCoastalHolidaysComponent
 
 } from './components';
 
@@ -388,6 +390,14 @@ const routes: Routes = [
     {
         path: 'getaways',
         component: AllGetawaysComponent
+    },
+    {
+        path: 'bush-safaris',
+        component: AllBushSafariComponent
+    },
+    {
+        path: 'coastal-holidays',
+        component: AllCoastalHolidaysComponent
     }
 ];
 

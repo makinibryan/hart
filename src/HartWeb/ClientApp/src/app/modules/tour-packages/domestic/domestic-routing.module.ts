@@ -74,7 +74,9 @@ import {
     PackageMileleResortNakuruComponent,
     PackageTheWinstonHotelComponent,
     PackageSerenaHotelsComponent,
-    AllGetawaysComponent
+    AllGetawaysComponent,
+    SafariBushSafarisComponent,
+    BeachCoastHolidaysComponent
 } from './components';
 
 const routes: Routes = [
@@ -182,6 +184,10 @@ const routes: Routes = [
     {
         path: 'turtle-bay',
         component: BeachTurtleBayComponent
+    },
+    {
+        path: 'coast-holidays',
+        component: BeachCoastHolidaysComponent
     },
     {
         path: 'aberdare-county-club',
@@ -387,8 +393,13 @@ const routes: Routes = [
     {
         path: 'getaways',
         component: AllGetawaysComponent
+    },
+    {
+        path: 'bush-safaris',
+        component: SafariBushSafarisComponent
     }
 ];
+
 
 @NgModule({
     imports: [ RouterModule.forChild(routes)],

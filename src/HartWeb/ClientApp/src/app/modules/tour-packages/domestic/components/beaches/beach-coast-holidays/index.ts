@@ -1,0 +1,1 @@
+export * from './beach-coast-holidays.component';

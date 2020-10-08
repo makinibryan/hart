@@ -4,18 +4,23 @@ import { SharedModule } from '../../../app/shared/shared.module';
 
 import { CampaignsRoutingModule } from './campaigns-routing.module';
 
-import { AllCampaignsComponent,
-         LongonotComponent,
-         ThreeDaysDianiXWasiniIslandExcursionComponent,
-         MombasaThreeDaysTwoNightsBeachDazeComponent
-         } from './components';
+import {
+  AllCampaignsComponent,
+  LongonotComponent,
+  ThreeDaysDianiXWasiniIslandExcursionComponent,
+  MombasaThreeDaysTwoNightsBeachDazeComponent,
+  CampaignMaasaiMareThreeDaysComponent
+} from './components';
 
 
 @NgModule({
-  declarations: [LongonotComponent,
+  declarations: [
+    LongonotComponent,
     ThreeDaysDianiXWasiniIslandExcursionComponent,
     AllCampaignsComponent,
-    MombasaThreeDaysTwoNightsBeachDazeComponent
+    MombasaThreeDaysTwoNightsBeachDazeComponent,
+    CampaignMaasaiMareThreeDaysComponent,
+    CampaignMaasaiMareThreeDaysComponent
   ],
   imports: [
     CommonModule,

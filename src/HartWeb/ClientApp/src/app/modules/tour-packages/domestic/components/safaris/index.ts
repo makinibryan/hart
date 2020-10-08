@@ -19,4 +19,4 @@ export * from './safari-land-giants-five-days-and-four-nights';
 export * from './safari-magnificent-excursions-five-days-and-four-nights';
 export * from './safari-home-of-the-wild-elephant-three-days-and-two-nights';
 export * from './safari-bush-and-lake';
-//export * from './safari-bush-and-beach-family';
+export * from './safari-bush-safaris';

@@ -4,7 +4,9 @@ import { Routes, RouterModule } from '@angular/router';
 import { AllCampaignsComponent,
         LongonotComponent,
         MombasaThreeDaysTwoNightsBeachDazeComponent,
-        ThreeDaysDianiXWasiniIslandExcursionComponent } from './components';
+        ThreeDaysDianiXWasiniIslandExcursionComponent,
+        CampaignMaasaiMareThreeDaysComponent
+      } from './components';
 
 const routes: Routes = [
     {
@@ -22,8 +24,13 @@ const routes: Routes = [
     {
       path: 'mombasa-three-days-two-nights-beach-daze',
       component: MombasaThreeDaysTwoNightsBeachDazeComponent
+    },
+    {
+      path: 'mombasa-three-days-two-nights-beach-daze',
+      component: CampaignMaasaiMareThreeDaysComponent
     }
 ];
+
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

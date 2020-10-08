@@ -79,11 +79,8 @@ import {
     PackageMileleResortNakuruComponent,
     PackageSerenaHotelsComponent,
     PackageTheWinstonHotelComponent,
-    AllBushSafariComponent,
-    AllCoastalHolidaysComponent,
     BeachSerenaResortAndSpaComponent
 } from './components';
-
 
 
 @NgModule({
@@ -165,9 +162,7 @@ import {
         PackageMileleResortNakuruComponent,
         PackageTheWinstonHotelComponent,
         PackageSerenaHotelsComponent,
-        AllGetawaysComponent,
-        AllBushSafariComponent,
-        AllCoastalHolidaysComponent,
+        AllGetawaysComponent,    
         BeachSerenaResortAndSpaComponent
     ]
 })

@@ -10,5 +10,3 @@ export * from './group-safaris';
 export * from './getaways';
 export * from './packages';
 
-export * from './bush-safaris';
-export * from './coastal-holidays';

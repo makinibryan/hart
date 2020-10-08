@@ -1,0 +1,52 @@
+#main-content{
+    padding-left: 0px !important;
+}
+.confirm-attendance { 
+	margin:-30px -30px 20px -30px; 
+	background-color:#445c2b; 
+	padding:10px 20px 10px 18px;
+	color:#fff; 
+	border:1px solid #fff;
+	-webkit-border-top-left-radius: 3px;
+	text-align:center;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+  
+  #reservation {
+	  color:  #60b10a;
+  }
+
+  .payment-instruction {
+	  margin-bottom: 25px;
+	  font-weight: bold;
+  }
+
+  .content-headers {
+	text-transform: uppercase;
+	font-weight: bold;
+  }
+
+  .price-group {
+	  font-weight: bold;
+	  text-transform: uppercase;
+  }
+
+  @media only screen and (max-width: 720px) {
+	
+  }
+
+  .mobile-view-margins {
+	margin-bottom: 50px;
+  }
+  .campaign-content{
+      margin-bottom: 20px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+  }
+  .campaign-list{
+      margin-bottom: 5px;
+  }

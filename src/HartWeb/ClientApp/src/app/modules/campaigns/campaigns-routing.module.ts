@@ -2,9 +2,11 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AllCampaignsComponent,
+        CampaignMaasaiMaraThreeDaysComponent,
         LongonotComponent,
         MombasaThreeDaysTwoNightsBeachDazeComponent,
-        ThreeDaysDianiXWasiniIslandExcursionComponent } from './components';
+        ThreeDaysDianiXWasiniIslandExcursionComponent
+      } from './components';
 
 const routes: Routes = [
     {
@@ -22,6 +24,10 @@ const routes: Routes = [
     {
       path: 'mombasa-three-days-two-nights-beach-daze',
       component: MombasaThreeDaysTwoNightsBeachDazeComponent
+    },
+    {
+      path: 'maasai-mara-three-days',
+      component: CampaignMaasaiMaraThreeDaysComponent
     }
 ];
 

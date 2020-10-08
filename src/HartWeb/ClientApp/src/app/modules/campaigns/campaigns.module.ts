@@ -7,7 +7,8 @@ import { CampaignsRoutingModule } from './campaigns-routing.module';
 import { AllCampaignsComponent,
          LongonotComponent,
          ThreeDaysDianiXWasiniIslandExcursionComponent,
-         MombasaThreeDaysTwoNightsBeachDazeComponent
+         MombasaThreeDaysTwoNightsBeachDazeComponent,
+         CampaignMaasaiMaraThreeDaysComponent
          } from './components';
 
 
@@ -15,7 +16,8 @@ import { AllCampaignsComponent,
   declarations: [LongonotComponent,
     ThreeDaysDianiXWasiniIslandExcursionComponent,
     AllCampaignsComponent,
-    MombasaThreeDaysTwoNightsBeachDazeComponent
+    MombasaThreeDaysTwoNightsBeachDazeComponent,
+    CampaignMaasaiMaraThreeDaysComponent
   ],
   imports: [
     CommonModule,

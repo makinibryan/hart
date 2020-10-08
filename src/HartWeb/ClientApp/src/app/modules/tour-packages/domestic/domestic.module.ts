@@ -72,11 +72,6 @@ import {
     GroupSafariBushAndLakeComponent,
     GroupSafariFourDayMarsabitChalbiDesertAndSamburu,
     BeachTurtleBayComponent,
-    AberdareCountyClubComponent,
-    MaraLeisureCampComponent,
-    MileleResortNakuruComponent,
-    TheWinstonHotelComponent,
-    SerenaHotelsComponent,
     SafariBushAndBeachFamilyComponent,
     BeachSerenaResortAndSpaComponent
 } from './components';
@@ -157,11 +152,6 @@ import { AllGetawaysComponent } from './components/getaways/all-getaways/all-get
         GroupSafariBushAndLakeComponent,
         GroupSafariFourDayMarsabitChalbiDesertAndSamburu,
         BeachTurtleBayComponent,
-        AberdareCountyClubComponent,
-        MaraLeisureCampComponent,
-        MileleResortNakuruComponent,
-        TheWinstonHotelComponent,
-        SerenaHotelsComponent,
         AllGetawaysComponent,
         SafariBushAndBeachFamilyComponent,
         BeachSerenaResortAndSpaComponent

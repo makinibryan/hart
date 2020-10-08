@@ -68,12 +68,7 @@ import {
     GroupSafariHomeOfTheWildElephantComponent,
     GroupSafariBushAndLakeComponent,
     GroupSafariFourDayMarsabitChalbiDesertAndSamburu,
-    BeachTurtleBayComponent, 
-    AberdareCountyClubComponent, 
-    MaraLeisureCampComponent, 
-    MileleResortNakuruComponent, 
-    TheWinstonHotelComponent, 
-    SerenaHotelsComponent, 
+    BeachTurtleBayComponent,
     AllGetawaysComponent,
     SafariBushAndBeachFamilyComponent
 
@@ -184,26 +179,6 @@ const routes: Routes = [
     {
         path: 'turtle-bay',
         component: BeachTurtleBayComponent
-    },
-    {
-        path: 'aberdare-county-club',
-        component: AberdareCountyClubComponent
-    },
-    {
-        path: 'mara-leisure-camp',
-        component: MaraLeisureCampComponent
-    },
-    {
-        path: 'milele-resort-nakuru',
-        component: MileleResortNakuruComponent
-    },
-    {
-        path: 'the-winston-hotel',
-        component: TheWinstonHotelComponent
-    },
-    {
-        path: 'serena-hotels',
-        component: SerenaHotelsComponent
     },
     {
         path: 'day-trips',

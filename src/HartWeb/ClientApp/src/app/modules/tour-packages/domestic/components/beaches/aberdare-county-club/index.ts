@@ -1,1 +1,0 @@
-export * from './aberdare-county-club.component';

@@ -69,12 +69,12 @@ import {
     GroupSafariBushAndLakeComponent,
     GroupSafariFourDayMarsabitChalbiDesertAndSamburu,
     BeachTurtleBayComponent,
-    AllGetawaysComponent,
+    PackageAberdareCountyClubComponent,
     PackageMaraLeisureCampComponent,
     PackageMileleResortNakuruComponent,
-    PackageTheWinstonHotelComponent, 
-    PackageAberdareCountyClubComponent, 
-    PackageSerenaHotelsComponent
+    PackageTheWinstonHotelComponent,
+    PackageSerenaHotelsComponent,
+    AllGetawaysComponent
 
 } from './components';
 

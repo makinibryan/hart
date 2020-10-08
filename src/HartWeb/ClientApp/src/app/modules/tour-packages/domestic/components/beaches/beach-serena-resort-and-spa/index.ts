@@ -1,0 +1,1 @@
+export * from './beach-serena-resort-and-spa.component';

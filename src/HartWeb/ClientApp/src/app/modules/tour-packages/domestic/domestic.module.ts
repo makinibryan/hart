@@ -80,7 +80,8 @@ import {
     PackageSerenaHotelsComponent,
     PackageTheWinstonHotelComponent,
     AllBushSafariComponent,
-    AllCoastalHolidaysComponent
+    AllCoastalHolidaysComponent,
+    BeachSerenaResortAndSpaComponent
 } from './components';
 
 
@@ -159,14 +160,15 @@ import {
         GroupSafariBushAndLakeComponent,
         GroupSafariFourDayMarsabitChalbiDesertAndSamburu,
         BeachTurtleBayComponent,
-        AllGetawaysComponent,
         PackageAberdareCountyClubComponent,
         PackageMaraLeisureCampComponent,
         PackageMileleResortNakuruComponent,
-        PackageSerenaHotelsComponent,
         PackageTheWinstonHotelComponent,
+        PackageSerenaHotelsComponent,
+        AllGetawaysComponent,
         AllBushSafariComponent,
-        AllCoastalHolidaysComponent
+        AllCoastalHolidaysComponent,
+        BeachSerenaResortAndSpaComponent
     ]
 })
 export class DomesticsModule{ }

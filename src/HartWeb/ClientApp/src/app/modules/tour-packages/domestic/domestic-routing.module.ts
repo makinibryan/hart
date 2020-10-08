@@ -390,14 +390,6 @@ const routes: Routes = [
     {
         path: 'getaways',
         component: AllGetawaysComponent
-    },
-    {
-        path: 'bush-safaris',
-        component: AllBushSafariComponent
-    },
-    {
-        path: 'coastal-holidays',
-        component: AllCoastalHolidaysComponent
     }
 ];
 

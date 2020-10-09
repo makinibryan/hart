@@ -40,7 +40,11 @@
   }
 
   .mobile-view-margins {
+<<<<<<< HEAD
 	  margin-bottom: 50px;
+=======
+	margin-bottom: 50px;
+>>>>>>> b0c551b98329e433ed47773fff2095098c975115
   }
   .campaign-content{
       margin-bottom: 20px;

@@ -1,0 +1,1 @@
+export * from './package-mara-leisure-camp.component';

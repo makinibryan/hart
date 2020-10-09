@@ -1,0 +1,1 @@
+export * from './package-milele-resort-nakuru.component';

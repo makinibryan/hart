@@ -1,1 +1,0 @@
-export * from './group-safari-six-days-maasai-mara-lake-nakuru-baringo.component';

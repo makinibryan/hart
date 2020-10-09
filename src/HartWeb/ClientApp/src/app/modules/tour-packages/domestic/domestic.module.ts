@@ -54,14 +54,10 @@ import {
     AllGroupSafarisComponent,
     GroupSafariFourDaysMaasaiMaraNakuruComponent,
     GroupSafariFiveDaysMaasaiMaraLakeNakuruComponent,
-    GroupSafariSixDaysMaasaiMaraLakeNakuruBaringoComponent,
     GroupSafariSevenDaysMaasaiMaraSamburuComponent,
     GroupSafariEightDaysTurkanaSpecialComponent,
     GroupSafariNineDaysMaasaiMaraKisumuAmboseliComponent,
     GroupSafariTheGreatMaraThreeDaysAndTwoNightsComponent,
-    GroupSafariTheGreatMaraElevenDaysAndTenNightsComponent,
-    GroupSafariHomeOfTheBigNineDaysAndEightNightsComponent,
-    GroupSafariGreatLakesSixDaysAndFiveNightsComponent,
     GroupSafariTheGreatMaraAndAmboseliSixDaysAndFiveNightsComponent,
     BeachTurtleBayComponent,
     AllGetawaysComponent,
@@ -133,14 +129,10 @@ import {
         AllPrivateSafarisComponent,
         GroupSafariFourDaysMaasaiMaraNakuruComponent,
         GroupSafariFiveDaysMaasaiMaraLakeNakuruComponent,
-        GroupSafariSixDaysMaasaiMaraLakeNakuruBaringoComponent,
         GroupSafariSevenDaysMaasaiMaraSamburuComponent,
         GroupSafariEightDaysTurkanaSpecialComponent,
         GroupSafariNineDaysMaasaiMaraKisumuAmboseliComponent,
         GroupSafariTheGreatMaraThreeDaysAndTwoNightsComponent,
-        GroupSafariTheGreatMaraElevenDaysAndTenNightsComponent,
-        GroupSafariHomeOfTheBigNineDaysAndEightNightsComponent,
-        GroupSafariGreatLakesSixDaysAndFiveNightsComponent,
         GroupSafariTheGreatMaraAndAmboseliSixDaysAndFiveNightsComponent,
         BeachTurtleBayComponent,
         PackageAberdareCountyClubComponent,
@@ -156,3 +148,4 @@ import {
     ]
 })
 export class DomesticsModule{ }
+

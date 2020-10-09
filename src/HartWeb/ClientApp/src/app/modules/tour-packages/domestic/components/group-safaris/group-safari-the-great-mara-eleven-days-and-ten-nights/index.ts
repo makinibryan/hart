@@ -1,1 +1,0 @@
-export * from './group-safari-the-great-mara-eleven-days-and-ten-nights.component';

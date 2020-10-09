@@ -51,14 +51,10 @@ import {
     AllGroupSafarisComponent,
     GroupSafariFourDaysMaasaiMaraNakuruComponent,
     GroupSafariFiveDaysMaasaiMaraLakeNakuruComponent,
-    GroupSafariSixDaysMaasaiMaraLakeNakuruBaringoComponent,
     GroupSafariSevenDaysMaasaiMaraSamburuComponent,
     GroupSafariEightDaysTurkanaSpecialComponent,
     GroupSafariNineDaysMaasaiMaraKisumuAmboseliComponent,
-    GroupSafariTheGreatMaraThreeDaysAndTwoNightsComponent,
-    GroupSafariTheGreatMaraElevenDaysAndTenNightsComponent,
-    GroupSafariHomeOfTheBigNineDaysAndEightNightsComponent,    
-    GroupSafariGreatLakesSixDaysAndFiveNightsComponent,
+    GroupSafariTheGreatMaraThreeDaysAndTwoNightsComponent,   
     GroupSafariTheGreatMaraAndAmboseliSixDaysAndFiveNightsComponent,
     BeachTurtleBayComponent,
     PackageAberdareCountyClubComponent,
@@ -319,14 +315,6 @@ const routes: Routes = [
         component: GroupSafariFourDaysMaasaiMaraNakuruComponent
     },
     {
-        path: 'group-safari-great-lakes-six-days-and-five-nights',
-        component: GroupSafariGreatLakesSixDaysAndFiveNightsComponent
-    },
-    {
-        path: 'group-safari-home-of-the-big-five-nine-days-and-eight-nights',
-        component: GroupSafariHomeOfTheBigNineDaysAndEightNightsComponent
-    },
-    {
         path: 'group-safari-nine-days-maasai-mara-kisumu-amboseli',
         component: GroupSafariNineDaysMaasaiMaraKisumuAmboseliComponent
     },
@@ -335,16 +323,8 @@ const routes: Routes = [
         component: GroupSafariSevenDaysMaasaiMaraSamburuComponent
     },
     {
-        path: 'group-safari-six-days-maasai-mara-lake-nakuru-baringo',
-        component: GroupSafariSixDaysMaasaiMaraLakeNakuruBaringoComponent
-    },
-    {
         path: 'group-safari-the-great-mara-and-amboseli',
         component: GroupSafariTheGreatMaraAndAmboseliSixDaysAndFiveNightsComponent
-    },
-    {
-        path: 'group-safari-the-great-mara-eleven-days-and-ten-nights',
-        component: GroupSafariTheGreatMaraElevenDaysAndTenNightsComponent
     },
     {
         path: 'group-safari-the-great-mara-three-days-and-two-nights',
@@ -365,5 +345,4 @@ const routes: Routes = [
     imports: [ RouterModule.forChild(routes)],
     exports: [RouterModule]
 })
-export class DomesticRoutingModule{
-}
+export class DomesticRoutingModule {}

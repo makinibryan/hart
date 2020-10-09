@@ -2,4 +2,4 @@ export * from './all-campaigns';
 export * from './longonot';
 export * from './three-days-diani-x-wasini-island-excursion';
 export * from './mombasa-three-days-two-nights-beach-daze';
-export * from './campaign-maasai-mare-three-days';
+export * from './campaign-maasai-mara-three-days';

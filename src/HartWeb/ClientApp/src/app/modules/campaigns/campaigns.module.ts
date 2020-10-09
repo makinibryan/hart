@@ -9,7 +9,7 @@ import {
   LongonotComponent,
   ThreeDaysDianiXWasiniIslandExcursionComponent,
   MombasaThreeDaysTwoNightsBeachDazeComponent,
-  CampaignMaasaiMareThreeDaysComponent
+  CampaignMaasaiMaraThreeDaysComponent
 } from './components';
 
 
@@ -19,8 +19,7 @@ import {
     ThreeDaysDianiXWasiniIslandExcursionComponent,
     AllCampaignsComponent,
     MombasaThreeDaysTwoNightsBeachDazeComponent,
-    CampaignMaasaiMareThreeDaysComponent,
-    CampaignMaasaiMareThreeDaysComponent
+    CampaignMaasaiMaraThreeDaysComponent
   ],
   imports: [
     CommonModule,

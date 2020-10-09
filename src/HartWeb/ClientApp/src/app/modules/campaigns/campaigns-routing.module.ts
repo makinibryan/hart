@@ -5,7 +5,7 @@ import { AllCampaignsComponent,
         LongonotComponent,
         MombasaThreeDaysTwoNightsBeachDazeComponent,
         ThreeDaysDianiXWasiniIslandExcursionComponent,
-        CampaignMaasaiMareThreeDaysComponent
+        CampaignMaasaiMaraThreeDaysComponent
       } from './components';
 
 const routes: Routes = [
@@ -22,12 +22,12 @@ const routes: Routes = [
       component: ThreeDaysDianiXWasiniIslandExcursionComponent
     },
     {
-      path: 'mombasa-three-days-two-nights-beach-daze',
+      path: 'mombasa',
       component: MombasaThreeDaysTwoNightsBeachDazeComponent
     },
     {
-      path: 'mombasa-three-days-two-nights-beach-daze',
-      component: CampaignMaasaiMareThreeDaysComponent
+      path: 'maasai-mara',
+      component: CampaignMaasaiMaraThreeDaysComponent
     }
 ];
 

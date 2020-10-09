@@ -4,4 +4,13 @@
   .payment-instruction {
 	  margin-bottom: 25px;
 	  font-weight: bold;
+  } 
+
+  #package-pricing {
+    margin-top: 20px;
   }
+
+  @media only screen and (max-width: 720px) {
+   
+  }
+ 

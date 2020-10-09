@@ -49,7 +49,6 @@ import {
     DayFourteenFallsComponent,
     AllPrivateSafarisComponent,
     AllGroupSafarisComponent,
-    GroupSafariThreeDaysTheHemmingwayTrailComponent,
     GroupSafariFourDaysMaasaiMaraNakuruComponent,
     GroupSafariFiveDaysMaasaiMaraLakeNakuruComponent,
     GroupSafariSixDaysMaasaiMaraLakeNakuruBaringoComponent,
@@ -58,16 +57,9 @@ import {
     GroupSafariNineDaysMaasaiMaraKisumuAmboseliComponent,
     GroupSafariTheGreatMaraThreeDaysAndTwoNightsComponent,
     GroupSafariTheGreatMaraElevenDaysAndTenNightsComponent,
-    GroupSafariHomeOfTheBigNineDaysAndEightNightsComponent,
-    GroupSafariBreathtakingWondersOfKenyaComponent,
-    GroupSafariReconnectWithNatureSevenDaysAndSixNightsComponent,
+    GroupSafariHomeOfTheBigNineDaysAndEightNightsComponent,    
     GroupSafariGreatLakesSixDaysAndFiveNightsComponent,
     GroupSafariTheGreatMaraAndAmboseliSixDaysAndFiveNightsComponent,
-    GroupSafariLandGiantsFiveDaysAndFourNightsComponent,
-    GroupSafariMagnificentExcursionsComponent,
-    GroupSafariHomeOfTheWildElephantComponent,
-    GroupSafariBushAndLakeComponent,
-    GroupSafariFourDayMarsabitChalbiDesertAndSamburu,
     BeachTurtleBayComponent,
     PackageAberdareCountyClubComponent,
     PackageMaraLeisureCampComponent,
@@ -313,15 +305,7 @@ const routes: Routes = [
     {
         path: 'group-safaris',
         component: AllGroupSafarisComponent
-    },
-    {
-        path: 'group-safari-breathtaking-eight-days-and-seven-nights',
-        component: GroupSafariBreathtakingWondersOfKenyaComponent
-    },
-    {
-        path: 'group-safari-bush-and-lake',
-        component: GroupSafariBushAndLakeComponent
-    },
+    }, 
     {
         path: 'group-safari-eight-days-turkana-special',
         component: GroupSafariEightDaysTurkanaSpecialComponent
@@ -329,10 +313,6 @@ const routes: Routes = [
     {
         path: 'group-safari-five-days-maasai-mara-lake-nakuru',
         component: GroupSafariFiveDaysMaasaiMaraLakeNakuruComponent
-    },
-    {
-        path: 'group-safari-four-day-marsabit-chalbi-desert-and-samburu',
-        component: GroupSafariFourDayMarsabitChalbiDesertAndSamburu
     },
     {
         path: 'group-safari-four-days-maasai-mara-nakuru',
@@ -347,24 +327,8 @@ const routes: Routes = [
         component: GroupSafariHomeOfTheBigNineDaysAndEightNightsComponent
     },
     {
-        path: 'group-safari-home-of-the-wild-elephant-three-days-and-two-nights',
-        component: GroupSafariHomeOfTheWildElephantComponent
-    },
-    {
-        path: 'group-safari-land-giants-five-days-and-four-nights',
-        component: GroupSafariLandGiantsFiveDaysAndFourNightsComponent
-    },
-    {
-        path: 'group-safari-magnificent-excursions-five-days-and-four-nights',
-        component: GroupSafariMagnificentExcursionsComponent
-    },
-    {
         path: 'group-safari-nine-days-maasai-mara-kisumu-amboseli',
         component: GroupSafariNineDaysMaasaiMaraKisumuAmboseliComponent
-    },
-    {
-        path: 'group-safari-reconnect-with-nature-seven-days-and-six-nights',
-        component: GroupSafariReconnectWithNatureSevenDaysAndSixNightsComponent
     },
     {
         path: 'group-safari-seven-days-maasai-mara-samburu',
@@ -385,10 +349,6 @@ const routes: Routes = [
     {
         path: 'group-safari-the-great-mara-three-days-and-two-nights',
         component: GroupSafariTheGreatMaraThreeDaysAndTwoNightsComponent
-    },
-    {
-        path: 'group-safari-three-days-the-hemmingway-trail',
-        component: GroupSafariThreeDaysTheHemmingwayTrailComponent
     },
     {
         path: 'getaways',

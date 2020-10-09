@@ -1,1 +1,0 @@
-export * from './group-safari-four-day-marsabit-chalbi-desert-and-samburu.component';

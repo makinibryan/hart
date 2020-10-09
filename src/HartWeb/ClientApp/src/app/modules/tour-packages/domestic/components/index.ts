@@ -8,5 +8,5 @@ export * from './tours-info';
 export * from './private-safaris';
 export * from './group-safaris';
 export * from './getaways';
-export * from './packages';
+export * from './generic-packages';
 

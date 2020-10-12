@@ -4,7 +4,7 @@
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145184903-1"></script>
-  <script>
+  <script async>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
@@ -13,7 +13,7 @@
   </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- Google Tag Manager -->
-  <script>
+  <script async>
   (function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
         'gtm.start':
@@ -138,7 +138,7 @@
   </style>
 
   <!-- Facebook Pixel Code -->
-  <script>
+  <script async>
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
         n.callMethod ?
@@ -161,16 +161,16 @@
   <!-- End Facebook Pixel Code -->
 
   <!-- TrustBox script -->
-  <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+  <script async type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
   <!-- End TrustBox script -->
   
   <!-- Start of Async Callbell Code -->
-  <script>
+  <script async>
     window.callbellSettings = {
       token: "j9aJ7PWcwhA5nwwpn56ER5K1"
     };
   </script>
-  <script>
+  <script async>
     (function () { var w = window; var ic = w.callbell; if (typeof ic === "function") { ic('reattach_activator'); ic('update', callbellSettings); } else { var d = document; var i = function () { i.c(arguments) }; i.q = []; i.c = function (args) { i.q.push(args) }; w.Callbell = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://dash.callbell.eu/include/' + window.callbellSettings.token + '.js'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })()
   </script>
   <!-- End of Async Callbell Code -->
@@ -178,7 +178,7 @@
   <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 
   <!-- Google AdSense -->
-  <script data-ad-client="ca-pub-1765719683659680" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script async data-ad-client="ca-pub-1765719683659680" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <!-- Google AdSense -->
 
 </head>
@@ -532,27 +532,6 @@
       });
     });
   </script>
-
-  <!-- Date and time pickers -->
-  <!-- <script>
-    $('input.date-pick').datepicker('setDate', 'today');
-    $('input.time-pick').timepicker({
-      minuteStep: 15,
-      showInpunts: false
-    })
-  </script> -->
-
-
-  
-  <!-- <script>
-    $('input').iCheck({
-      checkboxClass: 'icheckbox_square-grey',
-      radioClass: 'iradio_square-grey'
-    });
-  </script> -->
-
-
-
 
 </body>
 

@@ -90,4 +90,77 @@
     margin-bottom: 65px;
 }
 
+/*Banners*/
+.banner {
+	position: relative;
+	background: #fff url(../../../../../assets/img/banner_bg.png) no-repeat center bottom;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 30px;
+	margin-bottom: 60px;
+}
+
+.banner:after,
+.banner:before {
+	position: absolute;
+	content: "";
+	z-index: 1;
+	height: 18px;
+	width: 50%;
+	top: 100%;
+}
+
+.banner:after {
+	left: 0;
+	background: url(../../../../../assets/img/shadow-bg.png) no-repeat top left;
+}
+
+.banner:before {
+	right: 0;
+	background: url(../../../../../assets/img/shadow-bg.png) no-repeat top right;
+}
+
+.banner a {
+	position: absolute;
+	top: 35%;
+	right: 30px;
+}
+
+.banner h4 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 32px;
+	margin: 0;
+	padding: 0;
+	color: #445C2B;
+	font-family: "Gochi Hand", cursive;
+}
+
+.banner h4 span {
+	text-transform: none;
+	color: #555;
+}
+
+.banner p {
+	margin: 0;
+	padding: 0;
+}
+
+.banner.colored {
+	background: #445C2B url(../../../../../assets/img/banner_bg_colored.png) no-repeat center bottom;
+	color: #fff;
+}
+
+.banner.colored h4 {
+	color: #fff;
+}
+
+.banner.colored h4 span {
+	color: #FFC;
+}
+
 

@@ -31,7 +31,7 @@ const routes: Routes = [
       component: CampaignMaasaiMaraThreeDaysComponent
     },
     {
-      path: 'ngong-hills',
+      path: 'zip-lining-ngong-hills',
       component: CampaignZipLiningAndTeamBuildingNgongHillsComponent
     }
 ];

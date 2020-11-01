@@ -6,7 +6,8 @@ import { AllCampaignsComponent,
         MombasaThreeDaysTwoNightsBeachDazeComponent,
         ThreeDaysDianiXWasiniIslandExcursionComponent,
         CampaignMaasaiMaraThreeDaysComponent,
-        CampaignZipLiningAndTeamBuildingNgongHillsComponent
+        CampaignZipLiningAndTeamBuildingNgongHillsComponent,
+        CampaignSamburuOverlandTruckGameDriveComponent
       } from './components';
 
 const routes: Routes = [
@@ -33,6 +34,10 @@ const routes: Routes = [
     {
       path: 'zip-lining-ngong-hills',
       component: CampaignZipLiningAndTeamBuildingNgongHillsComponent
+    },
+    {
+      path: 'samburu-overland-truck-game-drive',
+      component: CampaignSamburuOverlandTruckGameDriveComponent
     }
 ];
 

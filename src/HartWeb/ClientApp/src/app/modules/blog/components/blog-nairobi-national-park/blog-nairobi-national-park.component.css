@@ -1,0 +1,9 @@
+.blog-content{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-fluid{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -11,9 +11,9 @@ import {
   MombasaThreeDaysTwoNightsBeachDazeComponent,
   CampaignMaasaiMaraThreeDaysComponent,
   CampaignZipLiningAndTeamBuildingNgongHillsComponent,
-  CampaignSamburuOverlandTruckGameDriveComponent
+  CampaignSamburuOverlandTruckGameDriveComponent,
+  CampaignOlooluaComponent
 } from './components';
-import { CampaignOlooluaComponent } from './components/campaign-oloolua/campaign-oloolua.component';
 
 
 @NgModule({

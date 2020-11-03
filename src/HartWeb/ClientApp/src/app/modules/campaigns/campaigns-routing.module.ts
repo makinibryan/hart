@@ -7,7 +7,8 @@ import { AllCampaignsComponent,
         ThreeDaysDianiXWasiniIslandExcursionComponent,
         CampaignMaasaiMaraThreeDaysComponent,
         CampaignZipLiningAndTeamBuildingNgongHillsComponent,
-        CampaignSamburuOverlandTruckGameDriveComponent
+        CampaignSamburuOverlandTruckGameDriveComponent,
+        CampaignOlooluaComponent
       } from './components';
 
 const routes: Routes = [
@@ -38,6 +39,10 @@ const routes: Routes = [
     {
       path: 'samburu-overland-truck-game-drive',
       component: CampaignSamburuOverlandTruckGameDriveComponent
+    },
+    {
+      path: 'oloolua-nature-trails',
+      component: CampaignOlooluaComponent
     }
 ];
 

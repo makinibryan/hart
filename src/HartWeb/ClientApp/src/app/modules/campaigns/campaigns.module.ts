@@ -11,7 +11,8 @@ import {
   MombasaThreeDaysTwoNightsBeachDazeComponent,
   CampaignMaasaiMaraThreeDaysComponent,
   CampaignZipLiningAndTeamBuildingNgongHillsComponent,
-  CampaignSamburuOverlandTruckGameDriveComponent
+  CampaignSamburuOverlandTruckGameDriveComponent,
+  CampaignOlooluaComponent
 } from './components';
 
 
@@ -23,7 +24,8 @@ import {
     MombasaThreeDaysTwoNightsBeachDazeComponent,
     CampaignMaasaiMaraThreeDaysComponent,
     CampaignZipLiningAndTeamBuildingNgongHillsComponent,
-    CampaignSamburuOverlandTruckGameDriveComponent
+    CampaignSamburuOverlandTruckGameDriveComponent,
+    CampaignOlooluaComponent
   ],
   imports: [
     CommonModule,

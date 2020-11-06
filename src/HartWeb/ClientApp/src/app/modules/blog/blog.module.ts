@@ -5,13 +5,19 @@ import { BlogRoutingModule } from './blog-routing.module';
 import { SharedModule } from '../../shared/shared.module';
 
 import {
+    AllBlogsComponent,
     BlogNairobiNationalParkComponent,
-    BlogComponent
-} from './components'
+    BlogComponent,
+    BlogLongonotComponent
+} from './components';
 
 
 @NgModule({
-    declarations: [BlogComponent, BlogNairobiNationalParkComponent],
+    declarations: [
+        BlogComponent,
+        BlogNairobiNationalParkComponent,
+        AllBlogsComponent,
+        BlogLongonotComponent],
     imports: [
         CommonModule,
         SharedModule,

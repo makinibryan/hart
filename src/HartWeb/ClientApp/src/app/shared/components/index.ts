@@ -10,4 +10,5 @@ export * from './request-quote-button';
 export * from './payment-details';
 export * from './social-media';
 export * from './side-contact-confirm-attendance';
+export * from './side-menu-blog';
 

@@ -17,9 +17,10 @@ import {
   SocialMediaComponent,
   PaymentDetailsComponent,
   RequestQuoteButtonComponent,
-  SideContactConfirmAttendanceComponent
-
+  SideContactConfirmAttendanceComponent,
+  SideMenuBlogComponent
  } from './components';
+
 
 
 
@@ -41,7 +42,8 @@ import {
   SocialMediaComponent,
   RequestQuoteButtonComponent,
   PaymentDetailsComponent,
-  SideContactConfirmAttendanceComponent
+  SideContactConfirmAttendanceComponent,
+  SideMenuBlogComponent
 ],
   exports: [
       FlexLayoutModule,
@@ -56,6 +58,7 @@ import {
       FooterComponent,
       BookByPhoneLeftComponent,
       SideMenuComponent,
+      SideMenuBlogComponent,
       RequestQuoteButtonComponent,
       PaymentDetailsComponent,
       SideContactConfirmAttendanceComponent

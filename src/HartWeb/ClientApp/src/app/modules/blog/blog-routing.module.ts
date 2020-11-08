@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BlogNairobiNationalParkComponent,
-  BlogComponent,
+import {
   AllBlogsComponent,
-  BlogLongonotComponent} from './components';
-
+  BlogNairobiNationalParkComponent,
+  BlogLongonotComponent
+} from './components';
 
 
 const routes: Routes = [

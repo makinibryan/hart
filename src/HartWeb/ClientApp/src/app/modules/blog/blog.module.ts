@@ -7,17 +7,16 @@ import { SharedModule } from '../../shared/shared.module';
 import {
     AllBlogsComponent,
     BlogNairobiNationalParkComponent,
-    BlogComponent,
     BlogLongonotComponent
 } from './components';
 
 
 @NgModule({
     declarations: [
-        BlogComponent,
-        BlogNairobiNationalParkComponent,
         AllBlogsComponent,
-        BlogLongonotComponent],
+        BlogNairobiNationalParkComponent,
+        BlogLongonotComponent
+    ],
     imports: [
         CommonModule,
         SharedModule,

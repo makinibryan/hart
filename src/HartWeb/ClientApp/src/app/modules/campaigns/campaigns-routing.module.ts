@@ -46,7 +46,7 @@ const routes: Routes = [
       component: CampaignOlooluaComponent
     },
     {
-      path: 'nairobi-national-park-and kitengela-glass-adventure',
+      path: 'nairobi-national-park-and-kitengela-glass-adventure',
       component: CampaignNnpKitengelaComponent
     }
 ];

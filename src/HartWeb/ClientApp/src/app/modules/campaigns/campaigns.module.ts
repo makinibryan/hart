@@ -12,7 +12,8 @@ import {
   CampaignMaasaiMaraThreeDaysComponent,
   CampaignZipLiningAndTeamBuildingNgongHillsComponent,
   CampaignSamburuOverlandTruckGameDriveComponent,
-  CampaignOlooluaComponent
+  CampaignOlooluaComponent,
+  CampaignNnpKitengelaComponent
 } from './components';
 
 
@@ -25,7 +26,8 @@ import {
     CampaignMaasaiMaraThreeDaysComponent,
     CampaignZipLiningAndTeamBuildingNgongHillsComponent,
     CampaignSamburuOverlandTruckGameDriveComponent,
-    CampaignOlooluaComponent
+    CampaignOlooluaComponent,
+    CampaignNnpKitengelaComponent
   ],
   imports: [
     CommonModule,

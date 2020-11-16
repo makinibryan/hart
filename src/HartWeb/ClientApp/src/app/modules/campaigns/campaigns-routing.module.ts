@@ -8,7 +8,8 @@ import { AllCampaignsComponent,
         CampaignMaasaiMaraThreeDaysComponent,
         CampaignZipLiningAndTeamBuildingNgongHillsComponent,
         CampaignSamburuOverlandTruckGameDriveComponent,
-        CampaignOlooluaComponent
+        CampaignOlooluaComponent,
+        CampaignNnpKitengelaComponent
       } from './components';
 
 const routes: Routes = [
@@ -43,6 +44,10 @@ const routes: Routes = [
     {
       path: 'oloolua-nature-trails',
       component: CampaignOlooluaComponent
+    },
+    {
+      path: 'nairobi-national-park-and kitengela-glass-adventure',
+      component: CampaignNnpKitengelaComponent
     }
 ];
 

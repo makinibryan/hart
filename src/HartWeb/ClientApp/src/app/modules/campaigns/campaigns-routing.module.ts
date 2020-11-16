@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AllCampaignsComponent,
@@ -9,7 +9,8 @@ import { AllCampaignsComponent,
         CampaignZipLiningAndTeamBuildingNgongHillsComponent,
         CampaignSamburuOverlandTruckGameDriveComponent,
         CampaignOlooluaComponent,
-        CampaignNnpKitengelaComponent
+        CampaignNnpKitengelaComponent,
+        CampaignLakeNaivashaComponent
       } from './components';
 
 const routes: Routes = [
@@ -48,6 +49,10 @@ const routes: Routes = [
     {
       path: 'nairobi-national-park-and-kitengela-glass-adventure',
       component: CampaignNnpKitengelaComponent
+    },
+    {
+      path: 'lake-naivasha-oloiden-olkaria-spa-hells-gate-crater-lake',
+      component: CampaignLakeNaivashaComponent
     }
 ];
 

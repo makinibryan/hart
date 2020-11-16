@@ -13,9 +13,9 @@ import {
   CampaignZipLiningAndTeamBuildingNgongHillsComponent,
   CampaignSamburuOverlandTruckGameDriveComponent,
   CampaignOlooluaComponent,
-  CampaignNnpKitengelaComponent
+  CampaignNnpKitengelaComponent,
+  CampaignLakeNaivashaComponent
 } from './components';
-
 
 @NgModule({
   declarations: [
@@ -27,7 +27,8 @@ import {
     CampaignZipLiningAndTeamBuildingNgongHillsComponent,
     CampaignSamburuOverlandTruckGameDriveComponent,
     CampaignOlooluaComponent,
-    CampaignNnpKitengelaComponent
+    CampaignNnpKitengelaComponent,
+    CampaignLakeNaivashaComponent
   ],
   imports: [
     CommonModule,

@@ -10,8 +10,10 @@ import {
   HomeComponent,
   ContactUsComponent,
   InquireNowComponent,
-  StagingComponent
+  StagingComponent,
+  EventsCalendarComponent
 } from './components';
+
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import {
     HomeComponent,
     ContactUsComponent,
     InquireNowComponent,
-    StagingComponent
+    StagingComponent,
+    EventsCalendarComponent,
+
   ],
   imports: [
     CommonModule,

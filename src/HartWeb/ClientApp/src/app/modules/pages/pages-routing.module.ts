@@ -7,7 +7,8 @@ import {
   ContactUsComponent,
   FaqComponent,
   InquireNowComponent,
-  StagingComponent
+  StagingComponent,
+  EventsCalendarComponent
 } from './components';
 
 const routes: Routes = [
@@ -34,6 +35,10 @@ const routes: Routes = [
     {
       path: 'staging',
       component: StagingComponent
+    },
+    {
+      path: 'events-calender',
+      component: EventsCalendarComponent
     }
 ];
 

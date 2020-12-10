@@ -42,4 +42,11 @@ table {
     font-size: 12px;
   } 
 }
+ul{
+  
+  padding-left: 0.99rem;
+}
+abbr{
+  text-decoration: none;
+}
 
